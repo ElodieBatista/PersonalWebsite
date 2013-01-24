@@ -1,0 +1,61 @@
+/*==================================
+=========== PRESENTATION ===========
+==================================*/
+aside {
+	float: left;
+	width: 590px;
+	margin-right: 110px;
+	margin-top: 12px;
+	text-align: justify;
+}
+
+aside p {
+	height: 80px;
+	margin-top: -9px;
+	padding: 20px;
+	color: rgb(50, 50, 50);
+	font-size: 15px;
+	background-color: rgb(238, 238, 238);
+}
+
+aside a { text-decoration: underline; }
+
+
+aside a:hover { color: rgb(9, 90, 195); }
+
+/*==================================
+=============== TILES ==============
+==================================*/
+div.containerTiles { float: left; margin-left: 43px; }
+
+
+/*==================================
+============ SELECTION =============
+==================================*/
+p::-moz-selection, strong::-moz-selection,
+a::-moz-selection, span::-moz-selection,
+div::-moz-selection, h1::-moz-selection, 
+h2::-moz-selection, h3::-moz-selection, 
+h4::-moz-selection, h5::-moz-selection, 
+h6::-moz-selection, label::-moz-selection {
+	background: rgb(9, 90, 195);
+	color: white;
+}
+p::-webkit-selection, strong::-webkit-selection,
+a::-webkit-selection, span::-webkit-selection,
+div::-webkit-selection, h1::-webkit-selection, 
+h2::-webkit-selection, h3::-webkit-selection, 
+h4::-webkit-selection, h5::-webkit-selection, 
+h6::-webkit-selection, label::-webkit-selection {
+	background: rgb(9, 90, 195);
+	color: white;
+}
+p::selection, strong::selection,
+a::selection, span::selection,
+div::selection, h1::selection, 
+h2::selection, h3::selection, 
+h4::selection, h5::selection, 
+h6::selection, label::selection {
+	background: rgb(9, 90, 195);
+	color: white;
+}

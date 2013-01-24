@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <title>Contacter Elodie Batista - Developpement Web - Toulouse</title>
+
+        <meta name="description" content="N'hésitez pas à me contacter pour tout renseignement supplémentaire concernant mon profil d'informaticienne.">
+		<meta name="keywords" content="elodie, batista, développement, web, programmation, supinfo, toulouse, informatique">
+		<meta charset="utf-8">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/accueil.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/MetroJs.lt.css">
+	</head>
+    <body>
+    	<div class="container">
+	    	<header>
+	    		<h1 id="mainTitle">
+	    			<a class="iconNav" href="index.html"><img src="img/home.svg" class="button" alt="Accueil" title="Accueil"></a>
+	    			Contact
+	    		</h1>
+	    		
+	    		<a href="index.html">
+		    		<div class="loginDiv">
+		    			<h3>Elodie</h3>
+		    			<h5>Batista</h5>
+		    		</div>
+		    		<div class="loginDiv">
+		    			<img src="img/elodie-batista.png" id="login" alt="Elodie Batista" title="Elodie Batista">
+		    		</div>
+	    		</a>
+	    		
+	    		<div class="clear"></div>
+	    	</header>
+
+	    	<div class="clear"></div>
+
+	    	<div class="containerNormal">
+	    		<aside>
+	    			<div class="containerTiles">
+						<a href="http://www.facebook.com/batistaelodie">
+							<div class="smallBlue2 smallTile">
+								<img class="icon" src="img/logos/facebook.svg" alt="Facebook d'Elodie Batista">
+								<p class="pTile">Facebook</p>
+							</div>
+						</a>
+						<a href="http://www.viadeo.com/fr/profile/elodie.batista">
+							<div class="smallOrange smallTile">
+								<img class="icon" src="img/logos/viadeo.svg" alt="Viadeo d'Elodie Batista">
+								<p class="pTile">Viadeo</p>
+							</div>
+						</a>
+						<div class="clear"></div>
+
+						<a href="http://twitter.com/elodie_batista">
+							<div class="bigBlue3 bigTile">
+								<img class="icon" src="img/logos/twitter.svg" alt="Twitter d'Elodie Batista">
+								<p class="pTile">Twitter</p>
+							</div>
+						</a>
+						<div class="clear"></div>
+
+						<a href="http://fr.linkedin.com/in/elodiebatista">
+							<div class="smallPurple smallTile">
+								<img class="icon" src="img/logos/linkedin.svg" alt="LinkedIn d'Elodie Batista">
+								<p class="pTile">LinkedIn</p>
+							</div>
+						</a>
+						<div class="live-tile smallTile" data-mode="slide" data-stops="100%" data-speed="750" data-delay="4500">
+						 	<div><img class="tile" src="img/slide/fleur.png" alt="1" /></div>
+						 	<div><img class="tile" src="img/slide/spring.png" alt="2" /></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+	    		</aside>
+
+	    		<form method="post" action="" id="contactForm" name="sendEmail" enctype="text/plain">
+	    			<label>Votre nom et prénom</label>
+	    			<input type="text" class="toFill" id="name"><br />
+
+	    			<label>Le sujet du mail</label>
+					<input type="text" class="toFill" id="subject"><br />
+
+					<label>Votre message</label>
+					<textarea class="toFill" id="msgBody"></textarea><br />
+					<input type="submit" value="Envoyer" id="send">
+	    		</form>
+
+	    		<div class="clear"></div>
+	    	</div>
+		</div>
+
+		<footer>
+    		<p>© <strong>Elodie BATISTA</strong> 2013 Tous droits réservés | Site web développé par <strong>Elodie BATISTA</strong> | <a href="mentions-legales.html">Mentions légales</a></p>
+    	</footer>
+
+    	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    	<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript" src="js/email.js"></script>
+    	<script type="text/javascript" src="js/MetroJs.lt.js"></script>
+    	<script type="text/javascript">
+		    $(".live-tile").not(".exclude").liveTile();
+		</script>
+	</body>
+</html>
