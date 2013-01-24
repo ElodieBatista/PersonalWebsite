@@ -1,0 +1,182 @@
+/*==================================
+============== LAYOUT ==============
+==================================*/
+div#containerAll { width: 992px; position: relative; }
+
+ul.rangee { 
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+li.item {
+	float: left;
+	width: 300px;
+	position: relative;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+li.firstLi 	{ margin-left: -40px; 	}
+li.notFirst { margin-left: 45px; 	}
+
+
+/*==================================
+=============== IMAGES =============
+==================================*/
+img.imgPortfolio {
+	width: 302px;
+	height: 200px;
+	border: solid 1px rgb(230, 230, 230);
+	cursor: pointer;
+}
+
+img.big {
+	float: left;
+	width: 748px;
+	min-height: 450px;
+	margin-bottom: 30px;
+	border: solid 1px rgb(230, 230, 230);
+}
+
+.bigNotFirst { margin-left: 30px; }
+
+div.traitPhotos {
+	width: 750px;
+	margin-bottom: 30px;
+	border-top: solid 1px rgb(195, 195, 195);
+}
+
+
+/*==================================
+============== COVER ===============
+==================================*/
+div.cover {
+	width: 304px;
+	height: 201px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 70px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.coverBleu 	{	background-color: rgba(32, 1, 105, 0.75);	}
+div.coverViolet {	background-color: rgba(115, 1, 173, 0.75);	}
+div.coverVert 	{	background-color: rgba(0, 169, 169, 0.75);	}
+
+
+/*==================================
+=============== TITRES =============
+==================================*/
+div.PFtitle {
+	width: 304px;
+	height: 25px;
+	margin-top: 10px;
+	padding-top: 5px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 15px;
+	text-align: center;
+}
+
+div.PFtitleViolet 	{ background-color: rgb(115, 1, 173); 	}
+div.PFtitleVert 	{ background-color: rgb(0, 169, 169); 	}
+div.PFtitleBleu 	{ background-color: rgb(32, 1, 105); 	}
+div.PFtitleJaune 	{ background-color: rgb(237, 181, 33); 	}
+div.PFtitleOrange 	{ background-color: rgb(219, 86, 45); 	}
+div.PFtitleRose 	{ background-color: rgb(183, 26, 107); 	}
+
+
+/*==================================
+============ DESCRIPTION ===========
+==================================*/
+div.projectInfos {
+	float: left;
+	width: 220px;
+	height: 450px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+div.projectInfos h5 {
+	margin-top: 0px;
+	color: rgb(215, 0, 225);
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+div.projectInfos h6 {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	color: rgb(200, 200, 200);
+	font-size: 15px;
+	font-style: italic;
+	text-align: left;
+}
+
+div.projectInfos a:hover { color: rgb(215, 0, 225); }
+
+div.projectInfosDescription {
+	width: 220px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	text-align: justify;
+	border-top: solid 1px rgb(230, 230, 230);
+}
+
+div.projectInfosTechnos {
+	width: 220px;
+	padding-top: 10px;
+	text-align: left;
+	border-top: solid 1px rgb(230, 230, 230);
+}
+
+
+/*==================================
+=============== TRAITS =============
+==================================*/
+div.trait {
+	width: 304px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px rgb(230, 230, 230);
+}
+
+
+/*==================================
+============ SELECTION =============
+==================================*/
+p::-moz-selection, strong::-moz-selection,
+a::-moz-selection, span::-moz-selection,
+div::-moz-selection, h1::-moz-selection, 
+h2::-moz-selection, h3::-moz-selection, 
+h4::-moz-selection, h5::-moz-selection, 
+h6::-moz-selection, label::-moz-selection {
+	background: rgb(115, 1, 175);
+	color: white;
+}
+p::-webkit-selection, strong::-webkit-selection,
+a::-webkit-selection, span::-webkit-selection,
+div::-webkit-selection, h1::-webkit-selection, 
+h2::-webkit-selection, h3::-webkit-selection, 
+h4::-webkit-selection, h5::-webkit-selection, 
+h6::-webkit-selection, label::-webkit-selection {
+	background: rgb(115, 1, 175);
+	color: white;
+}
+p::selection, strong::selection,
+a::selection, span::selection,
+div::selection, h1::selection, 
+h2::selection, h3::selection, 
+h4::selection, h5::selection, 
+h6::selection, label::selection {
+	background: rgb(115, 1, 175);
+	color: white;
+}
