@@ -1,0 +1,78 @@
+/*==================================
+=============== BASE ===============
+==================================*/
+@font-face {	font-family: "Segoe Light"; 	src: url("../Fonts/segoeuil.ttf"); 					}
+@font-face {	font-family: "Segoe UI"; 		src: url("../Fonts/segoeui.ttf"); 					}
+@font-face {	font-family: "Robot Light"; 	src: url("../Fonts/Roboto-Light-webfont.ttf"); 		}
+@font-face {	font-family: "Robot"; 			src: url("../Fonts/Roboto-Regular-webfont.ttf"); 	}
+
+div.clear { clear: both; }
+
+div.container {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: "Segoe Light", "Robot Light";
+	border: solid 1px white;
+}
+
+div.containerVisible {
+	width: 995px;
+	height: 500px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+h1, h3, h4, h5, h6 { font-weight: 100; }
+h1 { font-size: 70px; }
+h3 { font-size: 40px; }
+h4 { font-size: 30px; color: rgb(50, 50, 50); margin-top: -10px; }
+h5 { font-size: 25px; }
+h6 { font-size: 23px; color: white; text-align: center; }
+
+span.underline { text-decoration: underline; }
+strong { font-weight: 100; }
+a { color: black; border: none; text-decoration: none; }
+img { border: none; }
+.hidden{ display: none; }
+.hiddenV{ visibility: hidden; }
+
+
+/*==================================
+============== HEADER ==============
+==================================*/
+header { height: 250px; border: solid 1px white; }
+
+h1#mainTitle { float: left; width: 798px; }
+
+div.loginDiv { width: 100px; float: left; }
+
+img#login { margin-top: 50%; margin-left: 10px; }
+
+div.loginDiv h3 { margin-top: 50%; }
+div.loginDiv h5 { margin-top: -50px; margin-left: 33px; }
+
+nav img { cursor: pointer; }
+
+/*==================================
+=============== NAV ================
+==================================*/
+a.iconNav {
+	width: 55px;
+	margin-left: -50px;
+	margin-right: -10px;
+}
+
+
+/*==================================
+============== FOOTER ==============
+==================================*/
+footer {
+	width: 850px;
+	margin: 0 auto;
+	padding-top: 30px;
+	color: rgb(217, 217, 217);
+	font-family: "Segoe Light", "Robot Light";
+	font-size: 18px;
+}
+
+footer a { color: rgb(217, 217, 217); }

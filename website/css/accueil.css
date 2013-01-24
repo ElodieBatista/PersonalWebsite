@@ -1,0 +1,64 @@
+/*==================================
+============== SLIDER ==============
+==================================*/
+div#containerAll { width: 1440px; position: relative; }
+
+li.slideElement { float: left; list-style-type: none; }
+li.first { margin-left: -40px; }
+li.middle { margin-right: 60px; }
+
+
+/*==================================
+=============== TILES ==============
+==================================*/
+div.bigTile, div.smallTile { 
+	float: left;
+	border: solid 3px white;
+}
+
+div.bigTile 	{ width: 246px; height: 120px; }
+div.smallTile 	{ width: 120px; height: 120px; }
+
+div.bigPurple 	{ background-image: url("../img/tiles/tilePurple.png"); 	}
+div.bigOrange 	{ background-image: url("../img/tiles/tileOrange.png"); 	}
+div.bigBlue 	{ background-image: url("../img/tiles/tileBlue.png"); 		}
+div.bigRed 		{ background-image: url("../img/tiles/tileRed.png"); 		}
+div.bigGreen 	{ background-image: url("../img/tiles/tileGreen.png"); 		}
+div.bigBlue2 	{ background-image: url("../img/tiles/tileBlue2.png"); 		}
+div.bigBlue3 	{ background-image: url("../img/tiles/tileBlue3.png"); 		}
+div.bigBlue4 	{ background-image: url("../img/tiles/tileBlue4.png"); 		}
+div.bigYellow 	{ background-image: url("../img/tiles/tileYellow.png"); 	}
+div.bigBordeaux { background-image: url("../img/tiles/tileBordeaux.png"); 	}
+
+div.smallPurple 	{ background-image: url("../img/tiles/tilePetitPurple.png"); 	}
+div.smallOrange 	{ background-image: url("../img/tiles/tilePetitOrange.png"); 	}
+div.smallBlue 		{ background-image: url("../img/tiles/tilePetitBlue.png"); 		}
+div.smallRed 		{ background-image: url("../img/tiles/tilePetitRed.png"); 		}
+div.smallGreen 		{ background-image: url("../img/tiles/tilePetitGreen.png"); 	}
+div.smallBlue2 		{ background-image: url("../img/tiles/tilePetitBlue2.png"); 	}
+div.smallBlue3 		{ background-image: url("../img/tiles/tilePetitBlue3.png"); 	}
+div.smallBlue4 		{ background-image: url("../img/tiles/tilePetitBlue4.png"); 	}
+div.smallYellow 	{ background-image: url("../img/tiles/tilePetitYellow.png"); 	}
+div.smallBordeaux 	{ background-image: url("../img/tiles/tilePetitBordeaux.png"); 	}
+
+p.pTile {
+	margin-top: -5px;
+	margin-left: 5px;
+	color: white;
+}
+
+p#interets {
+	width: 246px;
+	height: 35px;
+	margin-top: 35px;
+	color: white;
+	font-family: "Segoe UI", "Robot";
+	font-size: 25px;
+	text-align: center;
+}
+
+/*==================================
+=============== TILES ==============
+============ ANIMATIONS ============
+==================================*/
+div.bigTile:hover, div.smallTile:hover { border: solid 3px rgb(192, 192, 192); }
