@@ -1,0 +1,62 @@
+{{> header }}
+
+	    	<div id="containerAll">
+	    		<h4>{{part1}}</h4>
+
+	    		{{#each internships}}
+	    			{{#each ranges}}
+				    	<ul class="rangee">
+				    		{{#each projects}}
+								<a href="#{{id}}" data-toggle="modal">
+						    		<li class="item">
+										<img src="{{img}}" class="imgPortfolio" alt="{{name}} - {{{title}}}" title="{{name}} - {{{title}}}">
+										<div class="PFtitle">{{name}} - {{{title}}}</div>
+										<div class="cover hiddenV">{{{category}}}</div>
+										<div class="trait"></div>
+									</li>
+								</a>
+							{{/each}}
+						</ul>
+						<div class="clear"></div>
+					{{/each}}
+				{{/each}}
+
+				<br /><br />
+				<h4>{{part2}}</h4>
+
+	    		{{#each personals}}
+	    			{{#each ranges}}
+				    	<ul class="rangee">
+				    		{{#each projects}}
+								<a href="#{{id}}" data-toggle="modal">
+						    		<li class="item">
+										<img src="{{img}}" class="imgPortfolio" alt="{{name}} - {{{title}}}" title="{{name}} - {{{title}}}">
+										<div class="PFtitle">{{name}} - {{{title}}}</div>
+										<div class="cover hiddenV">{{{category}}}</div>
+										<div class="trait"></div>
+									</li>
+								</a>
+							{{/each}}
+						</ul>
+						<div class="clear"></div>
+					{{/each}}
+				{{/each}}
+
+				{{#each internships}}
+	    			{{#each ranges}}
+				    	{{#each projects}}
+							{{> modal-slider this }}
+						{{/each}}
+					{{/each}}
+				{{/each}}
+
+				{{#each personals}}
+	    			{{#each ranges}}
+				    	{{#each projects}}
+							{{> modal-slider this }}
+						{{/each}}
+					{{/each}}
+				{{/each}}
+	    	</div>
+
+{{> footer }}

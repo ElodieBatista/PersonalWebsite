@@ -1,0 +1,17 @@
+{
+	"lang": "fr",
+	"site-title": "Elodie Batista - Developpement Web - Toulouse",
+	"meta-descripion": "Etudiante en informatique à Supinfo, je suis passionnée par le développement Web et la programmation.",
+	"meta-keywords": "elodie, batista, développement, web, programmation, supinfo, toulouse, informatique, application",
+	"css-bundle": "home",
+	"button-back": "",
+	"page-title": "Accueil",
+
+	"footer-text": "2013 Tous droits réservés | Site web développé par",
+	"footer-legal": "Mentions Légales",
+	"js-bundle": "home",
+
+	"title1": "Présentation",
+	"title2": "Divers",
+	"title3": "Réseaux Sociaux"
+}

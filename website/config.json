@@ -1,0 +1,78 @@
+{
+	"template_dir": "templates", 
+	"content_dir": "contents",
+	"output_dir": "output",
+
+	"server": { 
+		"port": 9009
+	},
+
+	"generator" : {
+        "blank": true
+    },
+
+	"bundles": {
+		"/css/home.css": [
+			"/css/base.less",
+			"/css/accueil.less",
+			"/css/jscrollpane.min.css",
+			"/css/MetroJs.lt.css"
+		],
+
+		"/js/home.js" : [
+            "/js/jquery-1.7.2.min.js",
+            "/js/interests.min.js",
+            "/js/MetroJs.lt.js",
+            "/js/jscrollpane.min.js",
+            "/js/main.js"
+        ],
+
+
+        "/css/portfolio.css": [
+			"/css/base.less",
+			"/css/portfolio.less",
+			"/css/bootstrap.min.css",
+			"/css/light-nivo-slider.css",
+			"/css/nivo-slider.css"
+		],
+
+		"/js/portfolio.js": [
+            "/js/jquery-1.7.2.min.js",
+            "/js/base.min.js",
+            "/js/portfolio.min.js",
+            "/js/bootstrap.min.js",
+            "/js/jquery.nivo.slider.pack.js",
+            "/js/portfolio.start.js"
+        ],
+
+
+        "/css/legal.css": [
+			"/css/base.less",
+			"/css/accueil.less"
+		],
+
+		"/js/legal.js" : [
+            "/js/jquery-1.7.2.min.js",
+            "/js/base.min.js"
+        ],
+
+
+        "/css/contact.css": [
+			"/css/base.less",
+			"/css/accueil.less",
+			"/css/contact.less",
+			"/css/MetroJs.lt.css"
+		],
+
+		"/js/contact.js" : [
+            "/js/jquery-1.7.2.min.js",
+            "/js/base.min.js",
+            "/js/email.min.js",
+            "/js/MetroJs.lt.js"
+        ]
+	},
+
+	"plugins": {
+	    "template_engine": "punch-engine-handlebars"
+	}
+}

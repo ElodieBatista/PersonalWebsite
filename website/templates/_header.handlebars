@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+	<head>
+    <title>{{site-title}}</title>
+
+    <meta name="description" content="{{meta-description}}">
+		<meta name="keywords" content="{{meta-keywords}}">
+		<meta charset="utf-8">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+		<!-- Begin Inspectlet Embed Code -->
+		<script type="text/javascript" id="inspectletjs">
+			window.__insp = window.__insp || [];
+			__insp.push(['wid', 2246504286]);
+			(function() {
+				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+				if (window.attachEvent){
+					window.attachEvent('onload', __ldinsp);
+				}else{
+					window.addEventListener('load', __ldinsp, false);
+				}
+			})();
+		</script>
+		<!-- End Inspectlet Embed Code -->
+
+		{{#stylesheet_bundle}}/css/{{css-bundle}}.css{{/stylesheet_bundle}}
+
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-33936897-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+    <body>
+    	<div class="container">
+	    	<header>
+	    		<h1 id="mainTitle">
+	    			{{#if button-back}}
+	    				<a class="iconNav" href="{{button-back.page}}">
+	    					<img src="img/{{button-back.img}}" class="button" alt="{{button-back.alt}}" title="{{button-back.alt}}">
+	    				</a>
+	    			{{/if}}
+	    			<strong>{{page-title}}</strong>
+	    		</h1>
+
+	    		<a href="index.html">
+		    		<div class="loginDiv">
+		    			<h3>Elodie</h3>
+		    			<h5>Batista</h5>
+		    		</div>
+		    		<div class="loginDiv">
+		    			<img src="img/elodie-batista.png" id="login" alt="Elodie Batista" title="Elodie Batista">
+		    		</div>
+		    	</a>
+	    		<div class="clear"></div>
+	    	</header>
+	    	<div class="clear"></div>

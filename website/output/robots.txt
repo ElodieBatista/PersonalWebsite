@@ -1,0 +1,15 @@
+User-agent: * 
+Allow: / 
+Disallow: /legal.html
+Disallow: /en/legal.html
+Disallow: /windows8/
+Disallow: /windows8/xml/
+Disallow: /windows8/img/
+Disallow: /topological-sort-backbone/
+Disallow: /topological-sort-backbone/components/
+Disallow: /topological-sort-backbone/fonts/
+Disallow: /topological-sort-backbone/img/
+Disallow: /topological-sort-backbone/scripts/
+Disallow: /topological-sort-backbone/styles/
+
+Sitemap: http://www.elodie-batista.fr/sitemap.xml

@@ -1,0 +1,24 @@
+{{> header }}
+
+	    	<div class="containerNormal">
+	    		<aside>
+	    			{{> bloc-contact }}
+	    		</aside>
+
+	    		<form method="post" action="" id="contactForm" name="envoieMail" enctype="text/plain">
+	    			<label>{{label-name}}</label>
+	    			<input type="text" class="toFill" id="name"><br />
+
+	    			<label>{{label-email}}</label>
+					<input type="text" class="toFill" id="subject"><br />
+
+					<label>{{label-msg}}</label>
+					<textarea class="toFill" id="msgBody"></textarea><br />
+					<input type="submit" value="{{button-send}}" id="send">
+	    		</form>
+
+	    		<div class="clear"></div>
+	    	</div>
+		</div>
+
+{{> footer }}

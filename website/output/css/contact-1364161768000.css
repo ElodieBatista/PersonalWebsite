@@ -1,0 +1,101 @@
+/*==================================
+============== ASIDE ===============
+==================================*/
+aside {
+  float: left;
+}
+/*==================================
+=============== FORM ===============
+==================================*/
+form#contactForm {
+  width: 500px;
+  margin-left: 350px;
+}
+label {
+  color: #e66d1a;
+  font-size: 18px;
+}
+input[type="text"],
+textarea {
+  width: 390px;
+  color: #808080;
+  font-family: "Segoe Light", "Robot Light";
+  font-size: 16px;
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px;
+}
+input[type="text"] {
+  height: 23px;
+  margin-bottom: 3px;
+}
+textarea {
+  height: 194px;
+  resize: none;
+}
+input[type="submit"] {
+  width: 170px;
+  margin-top: 10px;
+  margin-left: 230px;
+  padding: 2px;
+  color: white;
+  font-family: "Segoe Light", "Robot Light";
+  font-size: 18px;
+  background-color: #e66d1a;
+  border: solid 1px white;
+  cursor: pointer;
+}
+/*==================================
+============ ANIMATIONS ============
+==================================*/
+input[type="submit"]:hover {
+  font-weight: bold;
+}
+/*==================================
+============ SELECTION =============
+==================================*/
+p::-moz-selection,
+strong::-moz-selection,
+a::-moz-selection,
+span::-moz-selection,
+div::-moz-selection,
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+h5::-moz-selection,
+h6::-moz-selection,
+label::-moz-selection {
+  background: #db5555;
+  color: white;
+}
+p::-webkit-selection,
+strong::-webkit-selection,
+a::-webkit-selection,
+span::-webkit-selection,
+div::-webkit-selection,
+h1::-webkit-selection,
+h2::-webkit-selection,
+h3::-webkit-selection,
+h4::-webkit-selection,
+h5::-webkit-selection,
+h6::-webkit-selection,
+label::-webkit-selection {
+  background: #db5555;
+  color: white;
+}
+p::selection,
+strong::selection,
+a::selection,
+span::selection,
+div::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+label::selection {
+  background: #db5555;
+  color: white;
+}

@@ -1,0 +1,22 @@
+{
+	"lang": "fr",
+	"site-title": "Contacter Elodie Batista - Developpement Web - Toulouse",
+	"meta-descripion": "N'hésitez pas à me contacter pour tout renseignement supplémentaire concernant mon profil d'informaticienne.",
+	"meta-keywords": "elodie, batista, développement, web, programmation, supinfo, toulouse, informatique, application",
+	"css-bundle": "contact",
+	"button-back": {
+		"page": "index.html",
+		"img": "home.svg",
+		"alt": "Accueil"
+	},
+	"page-title": "Contact",
+
+	"footer-text": "2013 Tous droits réservés | Site web développé par",
+	"footer-legal": "Mentions Légales",
+	"js-bundle": "contact",
+
+	"label-name": "Votre nom et prénom",
+	"label-email": "Le sujet du mail",
+	"label-msg": "Votre message",
+	"button-send": "Envoyer"
+}

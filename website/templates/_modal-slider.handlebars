@@ -1,0 +1,27 @@
+		<div id="{{id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3>{{name}} <span>{{{title}}} {{#if company}}{{company}}{{/if}}</span></h3>
+			</div>
+			<div class="modal-body">
+			    <div class="slider-wrapper theme-light">
+				    <div id="{{id}}Slider" class="nivoSlider">
+				        {{#each imgs}}
+					    	<img src="{{path}}" title="{{legend}}" />
+						{{/each}}
+				    </div>
+				</div>
+			    <div class="projectInfos bigNotFirst">
+					<div class="projectInfosDescription">
+						<h5>Description</h5>
+						{{{description}}}
+					</div>
+					<div class="projectInfosTechnos">
+						<h5>Technologies</h5>
+						{{#each technologies}}
+							<strong>▪ {{name}}</strong><br />
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>

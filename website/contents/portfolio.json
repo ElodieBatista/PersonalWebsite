@@ -1,0 +1,198 @@
+{
+	"lang": "fr",
+	"site-title": "Portfolio - Elodie Batista - Developpement Web - Toulouse",
+	"meta-descripion": "Mon portfolio présente les projets informatiques auquels j'ai participé, que ce soit des applications web ou bien des applications logicielles.",
+	"meta-keywords": "elodie, batista, développement, web, programmation, supinfo, toulouse, informatique, application",
+	"css-bundle": "portfolio",
+	"button-back": {
+		"page": "index.html",
+		"img": "home.svg",
+		"alt": "Accueil"
+	},
+	"page-title": "Portfolio",
+
+	"footer-text": "2013 Tous droits réservés | Site web développé par",
+	"footer-legal": "Mentions Légales",
+	"js-bundle": "portfolio",
+
+	"part1": "Stages",
+	"part2": "Projets Personnels",
+	"internships": [
+		{
+			"ranges": [
+				{
+					"projects": [
+						{
+							"id": "projectsManager",
+							"name": "Enterprise Resources Manager",
+							"img": "img/portail.png",
+							"company": "pour Altran Sud-Ouest Toulouse",
+							"title": "2012",
+							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
+							"imgs": [
+								{ "path": "/img/hd/slider/projectsManager4.png", "legend": "Le tableau de bord d'un projet" },
+								{ "path": "/img/hd/slider/projectsManager5.png", "legend": "La liste des tâches pour chaque consultant/projet" },
+								{ "path": "/img/hd/slider/projectsManager1.png", "legend": "Le calendrier des consultants" },
+								{ "path": "/img/hd/slider/projectsManager2.png", "legend": "Chaque consultant gère ses rapports d'activités" },
+								{ "path": "/img/hd/slider/projectsManager3.png", "legend": "Le chef de projet gère le plan de charges" }
+							],
+							"description": "J'ai développé, designé et déployé cette application web destinée à la gestion des projets et des tâches de l'entreprise. Elle répondait à tous les besoins de l'entreprise et possédait une interface pour les clients.", 
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript & jQuery" },
+								{ "name": "ASP.NET MVC 3 & C#" },
+								{ "name": "Entity Framework Code First" },
+								{ "name": "Bootstrap Twitter" }
+							]
+						},
+						{
+							"id": "easyCrossReference",
+							"name": "Cross Reference Finder",
+							"img": "img/sch.png",
+							"company": "pour Schneider Electric Angoulême",
+							"title": "2011",
+							"category": "HTML5 <br /> CSS3",
+							"imgs": [
+								{ "path": "/img/hd/slider/ecr1.png", "legend": "La page d'accueil affiche les six gammes de produits Schneider Electric" },
+								{ "path": "/img/hd/slider/ecr2.png", "legend": "L'utilisateur choisit le concurrent et entre la référence du produit" },
+								{ "path": "/img/hd/slider/ecr3.png", "legend": "Si la référence était incomplete, l'application affiche des propositions" },
+								{ "path": "/img/hd/slider/ecr4.png", "legend": "L'utilisateur peut choisir l'importance de chaque critère" },
+								{ "path": "/img/hd/slider/ecr5.png", "legend": "Enfin, l'application détermine les meilleurs produits équivalents Schneider Electric" }
+							],
+							"description": "J'ai développé cette application web et modélisé sa base de données pour l'étude de références croisées. L'application a été déployée dans tous les bureaux Schneider Electric.",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "jQuery" },
+								{ "name": "PHP" },
+								{ "name": "MySQL" }
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+
+	"personals": [
+		{
+			"ranges": [
+				{
+					"projects": [
+						{
+							"id": "farmers",
+							"name": "Farmers",
+							"img": "img/farmers.png",
+							"title": "<strong>Multiplayer Online Game</strong> - 2013",
+							"category": "Node.js Socket.io <br /> HTML5",
+							"imgs": [
+								{ "path": "/img/hd/slider/farmers1.png", "legend": "Coming soon!" }
+							],
+							"description": "Un jeu multijoueurs en ligne où vous incarnez un fermier qui cultive des plantes, vend ses récoltes et attaque les autres joueurs pour agrandir son territoire.<br /><br /><a href=''>► Bientôt disponible!</a><br /><a href=''>► Code source sur Github bientôt!</a>",
+							"technologies": [
+								{ "name": "JavaScript" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "jQuery" },
+								{ "name": "Node.js" },
+								{ "name": "Socket.io" }
+							]
+						},
+						{
+							"id": "topologicalSort",
+							"name": "Topological Sort",
+							"img": "img/topo.png",
+							"title": "2013",
+							"category": "Backbone.js <br /> Mocha",
+							"imgs": [
+								{ "path": "/img/hd/slider/topo1.png", "legend": "La single page application" },
+								{ "path": "/img/hd/slider/topo2.png", "legend": "Quelques éléments ajoutés avec leurs dépendences" },
+								{ "path": "/img/hd/slider/topo3.png", "legend": "Le résultat avec les éléments ordonnés selon l'algorithme Topological Sort" },
+								{ "path": "/img/hd/slider/topo4.png", "legend": "Une erreur trouvée par l'algorithme" }
+							],
+							"description": "Une application web du topological sort. Il utilise Backbone.js pour construire l'UI et possède des unit tests écrits avec Mocha.<br /><br /><a href='http://www.elodie-batista.fr/topological-sort-backbone/index.html' target='_blank'>► Voir la démo</a><br /><a href='https://github.com/ElodieBatista/topological-sort-backbone'>► Code source sur Github</a>",
+							"technologies": [
+								{ "name": "JavaScript" },
+								{ "name": "Backbone.js" },
+								{ "name": "Mocha et Chai.js" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "Underscore.js" },
+								{ "name": "Bootstrap Twitter" }
+							]
+						},
+						{
+							"id": "personalWebsite",
+							"name": "Site web d'Elodie Batista",
+							"img": "img/website.png",
+							"title": "2012",
+							"category": "HTML5 CSS3 <br/> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/slider/website1.png", "legend": "Page d'accueil dans le style Windows 8" },
+								{ "path": "/img/hd/slider/website2.png", "legend": "Page d'accueil dans le style Windows 8" },
+								{ "path": "/img/hd/slider/website3.png", "legend": "Le portfolio" },
+								{ "path": "/img/hd/slider/website4.png", "legend": "La page de contact" }
+							],
+							"description": "Site web d'Elodie Batista. Le design est inspiré de Windows 8 et est entièrement fait en CSS3 et JavaScript.<br /><br /><a href='https://github.com/ElodieBatista/PersonalWebsite'>► Source code on Github</a>",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "Less" },
+								{ "name": "JavaScript & jQuery" },
+								{ "name": "Handlebars" },
+								{ "name": "Punch" },
+								{ "name": "Heroku" }
+							]
+						}
+					]
+				},
+				{
+					"projects": [
+						{
+							"id": "myVocabulary",
+							"name": "My Vocabulary",
+							"img": "img/vocabulary.png",
+							"title": "<strong>Windows 8 App</strong> - 2012",
+							"category": "HTML5 CSS3<br /> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/slider/myVocabulary1.png", "legend": "La page d'accueil avec une interface pour ajouter/supprimer des mots et consulter la liste" },
+								{ "path": "/img/hd/slider/myVocabulary2.png", "legend": "L'interface pour paramétrer des quizzs" },
+								{ "path": "/img/hd/slider/myVocabulary3.png", "legend": "Le quiz et son panneau à gauche qui décrit les statistiques de progression" }
+							],
+							"description": "Une application Windows 8 pour aider à apprendre des mots dans plusieurs langues et connaître leur signification.<br /><br /><a href='http://apps.microsoft.com/windows/app/my-vocabulary/dfc7bcb1-f903-4050-abf5-c2bf52ccc6be'>► Télécharger l'app</a><br /><a href='https://github.com/ElodieBatista/MyVocabulary'>► Code source sur Github</a>", 
+							"technologies": [
+								{ "name": "JavaScript" },
+								{ "name": "WinJS" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" }
+							]
+						},
+						{
+							"id": "blog",
+							"name": "Complete Blog Template",
+							"img": "img/blog.png",
+							"title": "2011",
+							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
+							"imgs": [
+								{ "path": "/img/hd/slider/blog1.png", "legend": "La page d'accueil avec les derniers articles du blog" },
+								{ "path": "/img/hd/slider/blog2.png", "legend": "L'interface pour créer un nouvel article" },
+								{ "path": "/img/hd/slider/blog3.png", "legend": "L'interface pour ajouter un commentaire à un article avec validation des champs" },
+								{ "path": "/img/hd/slider/blog4.png", "legend": "Les boutons Facebook, Twitter, et Google+ buttons présents sur chaque article" }
+							],
+							"description": "Un template de blog complet. Il possède une interface d'administration pour la gestion des articles et des commentaires. Il supporte aussi le multilangues.<br /><br /><a href='https://github.com/ElodieBatista/BlogAspMVC3'>► Code source sur Github</a>",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "ASP.NET MVC3 & C#" },
+								{ "name": "Entity Framework Code First" },
+								{ "name": "SQL Server 2008 R2 Express" }
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

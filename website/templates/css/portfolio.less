@@ -1,0 +1,259 @@
+@font: "Segoe Light", "Robot Light";
+@grey: rgb(220, 220, 220);
+@dark-grey: rgb(195, 195, 195);
+@violet: rgb(115, 1, 173);
+@vert: rgb(0, 169, 169);
+@blue: rgb(32, 1, 105);
+@purple: rgb(215, 0, 225);
+@blue-transparent: rgba(32, 1, 105, 0.75);
+@violet-transparent: rgba(115, 1, 173, 0.75);
+@vert-transparent: rgba(0, 169, 169, 0.75);
+.selection (@color) {
+	background: @color;
+	color: white;
+}
+
+
+/*==================================
+============== LAYOUT ==============
+==================================*/
+div#containerAll { width: 992px; position: relative; }
+
+ul.rangee { 
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+ul.rangee a:nth-child(1) li 		{ margin-left: -40px; 	}
+ul.rangee > a:not(:first-child) li 	{ margin-left: 45px; 	}
+
+ul.rangee a:nth-child(1) div.PFtitle { background-color: @blue; }
+ul.rangee a:nth-child(2) div.PFtitle { background-color: @violet; }
+ul.rangee a:nth-child(3) div.PFtitle { background-color: @vert; }
+
+ul.rangee a:nth-child(1) div.cover { background-color: @blue-transparent; }
+ul.rangee a:nth-child(2) div.cover { background-color: @violet-transparent; }
+ul.rangee a:nth-child(3) div.cover { background-color: @vert-transparent; }
+
+li.item {
+	float: left;
+	width: 300px;
+	position: relative;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+
+/*==================================
+=============== IMAGES =============
+==================================*/
+img.imgPortfolio {
+	width: 302px;
+	height: 200px;
+	border: solid 1px @grey;
+	cursor: pointer;
+}
+
+img.big {
+	float: left;
+	width: 748px;
+	min-height: 450px;
+	margin-bottom: 30px;
+	border: solid 1px @grey;
+}
+
+.bigNotFirst { margin-left: 10px; }
+
+div.traitPhotos {
+	width: 750px;
+	margin-bottom: 30px;
+	border-top: solid 1px @dark-grey;
+}
+
+
+/*==================================
+============== COVER ===============
+==================================*/
+div.cover {
+	width: 304px;
+	height: 201px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 70px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*==================================
+=============== TITRES =============
+==================================*/
+div.PFtitle {
+	width: 304px;
+	height: 25px;
+	margin-top: 10px;
+	padding-top: 5px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 15px;
+	text-align: center;
+}
+
+
+/*==================================
+============ DESCRIPTION ===========
+==================================*/
+div.projectInfos {
+	float: left;
+	width: 180px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+div.projectInfos h5 {
+	color: @purple;
+	margin: 0px auto 0px auto;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+div.projectInfos a { color: @purple; }
+
+div.projectInfosDescription {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	text-align: justify;
+	border-top: solid 1px @grey;
+}
+
+div.projectInfosTechnos {
+	padding-top: 10px;
+	text-align: left;
+	border-top: solid 1px @grey;
+}
+
+
+/*==================================
+=============== TRAITS =============
+==================================*/
+div.trait {
+	width: 304px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	border-bottom: solid 1px @grey;
+}
+
+
+/*==================================
+=========== MODAL & SLIDER =========
+==================================*/
+button.close {
+	width: 30px;
+  	height: 30px;
+  	color: white;
+  	background-color: @grey;
+  	border: none;
+  	float: right;
+  	font-size: 20px;
+  	font-weight: bold;
+  	cursor: pointer;
+}
+
+.modal {
+	border-radius: 0 !important;
+	width: 900px !important; 
+	margin-left: -450px !important;
+}
+
+.modal-body {
+	height: 470px;
+	max-height: 470px !important;
+	overflow-y: hidden !important;
+}
+
+.modal-header h3 { color: @purple; }
+
+.modal-header h3 span {
+	margin-bottom: 20px;
+	color: @dark-grey;
+	font-size: 15px;
+	font-style: italic;
+	text-align: left;
+}
+
+.nivoSlider {
+    position: relative;
+    background: url(../img/loading.gif) no-repeat 50% 50%;
+}
+
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.slider-wrapper {
+	float: left;
+    width: 75%;
+    height:400px;
+}
+
+div.nivo-directionNav a {
+	background-color: @grey !important;
+}
+
+
+/*==================================
+============ ANIMATIONS ============
+==================================*/
+div.projectInfos a:hover { text-decoration: underline; }
+
+div.nivo-directionNav a:hover {
+	background-color: @dark-grey !important;
+}
+
+button.close:hover {
+  background-color: @purple;
+}
+
+
+/*==================================
+============ SELECTION =============
+==================================*/
+p::-moz-selection, strong::-moz-selection,
+a::-moz-selection, span::-moz-selection,
+div::-moz-selection, h1::-moz-selection, 
+h2::-moz-selection, h3::-moz-selection, 
+h4::-moz-selection, h5::-moz-selection, 
+h6::-moz-selection, label::-moz-selection {
+	.selection(@violet);
+}
+p::-webkit-selection, strong::-webkit-selection,
+a::-webkit-selection, span::-webkit-selection,
+div::-webkit-selection, h1::-webkit-selection, 
+h2::-webkit-selection, h3::-webkit-selection, 
+h4::-webkit-selection, h5::-webkit-selection, 
+h6::-webkit-selection, label::-webkit-selection {
+	.selection(@violet);
+}
+p::selection, strong::selection,
+a::selection, span::selection,
+div::selection, h1::selection, 
+h2::selection, h3::selection, 
+h4::selection, h5::selection, 
+h6::selection, label::selection {
+	.selection(@violet);
+}
