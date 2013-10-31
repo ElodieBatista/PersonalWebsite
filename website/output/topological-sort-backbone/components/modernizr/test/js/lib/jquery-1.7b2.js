@@ -1490,7 +1490,7 @@ jQuery.support = (function() {
 	// We don't want to do body-related feature tests on frameset
 	// documents, which lack a body. So we use
 	// document.getElementsByTagName("body")[0], which is undefined in
-	// frameset documents, while document.body isn’t. (7398)
+	// frameset documents, while document.body isnât. (7398)
 	body = document.getElementsByTagName("body")[ 0 ];
 	// We use our own, invisible, body unless the body is already present
 	// in which case we use a div (#9239)

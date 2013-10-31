@@ -1122,7 +1122,7 @@ function done() {
 	}
 
 	if ( config.altertitle && typeof document !== "undefined" && document.title ) {
-		// show ✖ for good, ✔ for bad suite result in title
+		// show â for good, â for bad suite result in title
 		// use escape sequences in case file gets loaded with non-utf-8-charset
 		document.title = [
 			( config.stats.bad ? "\u2716" : "\u2714" ),
@@ -1385,7 +1385,7 @@ function runLoggingCallbacks( key, scope, args ) {
 }
 
 // Test for equality any JavaScript type.
-// Author: Philippe Rathé <prathe@gmail.com>
+// Author: Philippe RathÃ© <prathe@gmail.com>
 QUnit.equiv = (function() {
 
 	// Call the o related callback with the given arguments.

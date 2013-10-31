@@ -6,7 +6,7 @@
 	<categorie>Personnel</categorie>
     <description>
       My Vocabulary est une application Windows 8 qui permet d'enregistrer des mots et leur traduction dans plusieurs langues, et de tester ses connaissances sur ces mots au travers de quizzs.
-	  Technologies utilisées : WinJS, HTML 5, CSS 3, Visual Studio 2012
+	  Technologies utilisÃ©es : WinJS, HTML 5, CSS 3, Visual Studio 2012
 	  </description>
     <pictureSmall>http://www.elodie-batista.fr/img/vocabulary.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/myVocabulary1.png</pictureBig>
@@ -17,8 +17,8 @@
     <date>2012-07-30</date>
 	<categorie>Stage</categorie>
     <description>
-      Easy Cross Reference est une application web réalisée durant de 3 mois de stage pour l'entreprise Altran Sud-Ouest. Ce portail permet la gestion des projets, des tâches et des ressources. J'ai été chargée du développement de l'application, du design et du déploiement.
-	  Technologies utilisées : ASP.NET MVC 3, C#, Entity Framework, Linq, DevExpress, HTML 5, CSS 3, JavaScript, jQuery et Ajax, Visual Studio 2010
+      Easy Cross Reference est une application web rÃ©alisÃ©e durant de 3 mois de stage pour l'entreprise Altran Sud-Ouest. Ce portail permet la gestion des projets, des tÃ¢ches et des ressources. J'ai Ã©tÃ© chargÃ©e du dÃ©veloppement de l'application, du design et du dÃ©ploiement.
+	  Technologies utilisÃ©es : ASP.NET MVC 3, C#, Entity Framework, Linq, DevExpress, HTML 5, CSS 3, JavaScript, jQuery et Ajax, Visual Studio 2010
 	  </description>
     <pictureSmall>http://www.elodie-batista.fr/img/portail.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/projet.png</pictureBig>
@@ -29,8 +29,8 @@
     <date>2011-07-11</date>
 	<categorie>Stage</categorie>
     <description>
-      Easy Cross Reference est une application web réalisée durant de 3 mois de stage pour l'entreprise Schneider Electric. Elle permet à partir d'une référence concurrente de capteur (magnétique, électronique, pneumatique, etc.) de trouver les références équivalentes Schneider selon des critères de sélection.
-	  Technologies utilisées : Php 5, Html 5, Css 3 et MySql.
+      Easy Cross Reference est une application web rÃ©alisÃ©e durant de 3 mois de stage pour l'entreprise Schneider Electric. Elle permet Ã  partir d'une rÃ©fÃ©rence concurrente de capteur (magnÃ©tique, Ã©lectronique, pneumatique, etc.) de trouver les rÃ©fÃ©rences Ã©quivalentes Schneider selon des critÃ¨res de sÃ©lection.
+	  Technologies utilisÃ©es : Php 5, Html 5, Css 3 et MySql.
 	  </description>
     <pictureSmall>http://www.elodie-batista.fr/img/sch.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/ecr1.png</pictureBig>
@@ -41,8 +41,8 @@
     <date>2012-05-19</date>
 	<categorie>Scolaire</categorie>
     <description>
-      J'ai réalisé ce blog avec deux camarades. Il permet de créer des articles et des commentaires et de les gérer. J'ai été chargée de la partie back end et du design.
-	  Technologies utilisées : ASP.NET 4 MVC 3, C#, Entity Framework 4.3.1, Html 5, CSS 3, SQL Server 2008 R2 Express, Data Annotations, Membership Sharp et Visual Studio 2010.
+      J'ai rÃ©alisÃ© ce blog avec deux camarades. Il permet de crÃ©er des articles et des commentaires et de les gÃ©rer. J'ai Ã©tÃ© chargÃ©e de la partie back end et du design.
+	  Technologies utilisÃ©es : ASP.NET 4 MVC 3, C#, Entity Framework 4.3.1, Html 5, CSS 3, SQL Server 2008 R2 Express, Data Annotations, Membership Sharp et Visual Studio 2010.
 	</description>
     <pictureSmall>http://www.elodie-batista.fr/img/blog.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/blog1.png</pictureBig>
@@ -53,8 +53,8 @@
     <date>2012-07-02</date>
 	<categorie>Scolaire</categorie>
     <description>
-      Ce MMO RPG a été réalisé en équipe (4 personnes). Il s'agissait de faire évoluer des personnages dans des mondes et leurs permettre de changer de monde. J’ai été chargée de la partie front end du jeu.
-	  Technologies utilisées : Langage C++, librairie SFML et Visual Studio 2010.
+      Ce MMO RPG a Ã©tÃ© rÃ©alisÃ© en Ã©quipe (4 personnes). Il s'agissait de faire Ã©voluer des personnages dans des mondes et leurs permettre de changer de monde. Jâai Ã©tÃ© chargÃ©e de la partie front end du jeu.
+	  Technologies utilisÃ©es : Langage C++, librairie SFML et Visual Studio 2010.
 	</description>
     <pictureSmall>http://www.elodie-batista.fr/img/cumorah.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/cumorah1.png</pictureBig>
@@ -65,8 +65,8 @@
     <date>2011-07-02</date>
 	<categorie>Scolaire</categorie>
     <description>
-      Donkey Kong 2011 est une amélioration du célèbre jeu de plateforme Donkey Kong. Je l'ai réalisé en équipe (5 personnes). J’ai été chargée de la coordination des membres, de l’architecture de la solution et de la partie front end.
-	  Technologies utilisées : Langage C, librairie SDL et Visual Studio 2010.
+      Donkey Kong 2011 est une amÃ©lioration du cÃ©lÃ¨bre jeu de plateforme Donkey Kong. Je l'ai rÃ©alisÃ© en Ã©quipe (5 personnes). Jâai Ã©tÃ© chargÃ©e de la coordination des membres, de lâarchitecture de la solution et de la partie front end.
+	  Technologies utilisÃ©es : Langage C, librairie SDL et Visual Studio 2010.
 	</description>
     <pictureSmall>http://www.elodie-batista.fr/img/dk.png</pictureSmall>
     <pictureBig>http://www.elodie-batista.fr/img/hd/dk1.png</pictureBig>
