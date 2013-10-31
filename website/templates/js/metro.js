@@ -1,4 +1,4 @@
-﻿/*
+/*
 * Metro JS for jQuery
 * http://drewgreenwell.com/ 
 * For details and usage info see: http://drewgreenwell.com/projects/metrojs
