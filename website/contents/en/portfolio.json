@@ -1,9 +1,9 @@
 {
 	"lang": "en",
-	"site-title": "Portfolio - Elodie Batista - Web Development - San Francisco",
+	"site-title": "Portfolio - Elodie Batista - Web Development",
 	"meta-descripion": "My portfolio presents the IT projects I have participated in, either web applications or software applications.",
-	"meta-keywords": "elodie, batista, web, development, programmation, supinfo, san francisco, IT, application",
-	"css-bundle": "portfolio",
+	"meta-keywords": "elodie, batista, web, development, supinfo, application",
+	"css-bundle": "portfolioBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
@@ -13,15 +13,41 @@
 
 	"footer-text": "2013 All rights reserved | Web site developed by",
 	"footer-legal": "Legal Information",
-	"js-bundle": "portfolio",
+	"js-bundle": "portfolioBundle",
 
-	"part1": "Internships",
+	"part1": "Projects for Companies",
 	"part2": "Personal Projects",
 	"internships": [
 		{
 			"ranges": [
 				{
 					"projects": [
+						{
+							"id": "duxter",
+							"name": "Duxter App",
+							"img": "img/duxter.png",
+							"company": "for Duxter, Inc Seattle, WA - USA",
+							"title": "2013",
+							"category": "Angular.js <br /> HTML5 CSS3",
+							"imgs": [
+								{ "path": "/img/hd/slider/duxter1.png", "legend": "The authentication page and its parallax effect" },
+								{ "path": "/img/hd/slider/duxter2.png", "legend": "The newsfeed of the connected user" },
+								{ "path": "/img/hd/slider/duxter3.png", "legend": "It is possible to reply to a post and to like/dislike it" },
+								{ "path": "/img/hd/slider/duxter4.png", "legend": "The user can share a post" },
+								{ "path": "/img/hd/slider/duxter5.png", "legend": "The app handles notifications" },
+								{ "path": "/img/hd/slider/duxter6.png", "legend": "Using the app, the user can set some personal parameters" }
+							],
+							"description": "Developed the Duxter mobile application on Android and iOS. Duxter is a social network for gamers. The application provides mandy features such as the newsfeed, account manage-ment, and notifications.<br /><br /><a href='https://itunes.apple.com/us/app/duxter/id673362049?mt=8'>► Download the iOS app</a><br /><a href='https://play.google.com/store/apps/details?id=com.duxter.duxterapp'>► Download the Android app</a>", 
+							"technologies": [
+								{ "name": "Angular.js" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "PhoneGap" },
+								{ "name": "Yeoman" },
+								{ "name": "Jasmine" }
+							]
+						},
 						{
 							"id": "projectsManager",
 							"name": "Enterprise Resources Manager",
@@ -60,7 +86,7 @@
 								{ "path": "/img/hd/slider/ecr4.png", "legend": "User can choose the importance of each criteria" },
 								{ "path": "/img/hd/slider/ecr5.png", "legend": "Finally, the application shows the best Schneider Electric's equivalent products" }
 							],
-							"description": "Developed a business web application and modelised a database for the study of cross-references. It has been deployed to all the company’s offices worldwide.",
+							"description": "Developed a business web application and modeled a database for the study of cross-references. It has been deployed to all the company’s offices worldwide.",
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
@@ -96,6 +122,7 @@
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
 								{ "name": "jQuery" },
+								{ "name": "Sheetengine.js" },
 								{ "name": "Node.js" },
 								{ "name": "Socket.io" }
 							]

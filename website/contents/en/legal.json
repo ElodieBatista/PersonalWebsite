@@ -1,9 +1,9 @@
 {
 	"lang": "en",
-	"site-title": "Legal Information - Elodie Batista - Web Development - San Francisco",
+	"site-title": "Legal Information - Elodie Batista - Web Development",
 	"meta-descripion": "Legal Information.",
-	"meta-keywords": "elodie, batista, web, development, programmation, supinfo, san francisco, IT, application",
-	"css-bundle": "legal",
+	"meta-keywords": "elodie, batista, web, development, supinfo, application",
+	"css-bundle": "legalBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
@@ -13,7 +13,7 @@
 
 	"footer-text": "2013 All rights reserved | Web site developed by",
 	"footer-legal": "Legal Information",
-	"js-bundle": "legal",
+	"js-bundle": "legalBundle",
 
 	"paragraphs": [
 		{ 

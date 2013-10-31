@@ -1,9 +1,9 @@
 {
 	"lang": "fr",
-	"site-title": "Portfolio - Elodie Batista - Developpement Web - Toulouse",
+	"site-title": "Portfolio - Elodie Batista - Developpement Web",
 	"meta-descripion": "Mon portfolio présente les projets informatiques auquels j'ai participé, que ce soit des applications web ou bien des applications logicielles.",
-	"meta-keywords": "elodie, batista, développement, web, programmation, supinfo, toulouse, informatique, application",
-	"css-bundle": "portfolio",
+	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application",
+	"css-bundle": "portfolioBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
@@ -13,15 +13,41 @@
 
 	"footer-text": "2013 Tous droits réservés | Site web développé par",
 	"footer-legal": "Mentions Légales",
-	"js-bundle": "portfolio",
+	"js-bundle": "portfolioBundle",
 
-	"part1": "Stages",
+	"part1": "Projets en Entreprise",
 	"part2": "Projets Personnels",
 	"internships": [
 		{
 			"ranges": [
 				{
 					"projects": [
+						{
+							"id": "duxter",
+							"name": "Duxter App",
+							"img": "img/duxter.png",
+							"company": "pour Duxter, Inc Seattle, WA - USA",
+							"title": "2013",
+							"category": "Angular.js <br /> HTML5 CSS3",
+							"imgs": [
+								{ "path": "/img/hd/slider/duxter1.png", "legend": "La page d'authentification et son effet parallaxe" },
+								{ "path": "/img/hd/slider/duxter2.png", "legend": "L'utilisateur connecté peut consulter son newsfeed" },
+								{ "path": "/img/hd/slider/duxter3.png", "legend": "Il y a possibilité de commenter et d'aimer ou non chaque post" },
+								{ "path": "/img/hd/slider/duxter4.png", "legend": "L'utilisateur peut créer un post" },
+								{ "path": "/img/hd/slider/duxter5.png", "legend": "L'application gère les notifications" },
+								{ "path": "/img/hd/slider/duxter6.png", "legend": "L'utilisateur peut régler certains paramètres via l'application" }
+							],
+							"description": "J'ai développé cette application mobile pour l'entreprise Duxter, Inc. Duxter est un réseau social pour les joueurs de jeux vidéos. L’application comporte de nombreuses fonctionnalités telles que le newsfeed, la gestion du compte et les notifications.<br /><br /><a href='https://itunes.apple.com/us/app/duxter/id673362049?mt=8'>► Télécharger l'app iOS</a><br /><a href='https://play.google.com/store/apps/details?id=com.duxter.duxterapp'>► Télécharger l'app Android</a>", 
+							"technologies": [
+								{ "name": "Angular.js" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "PhoneGap" },
+								{ "name": "Yeoman" },
+								{ "name": "Jasmine" }
+							]
+						},
 						{
 							"id": "projectsManager",
 							"name": "Enterprise Resources Manager",
@@ -96,6 +122,7 @@
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
 								{ "name": "jQuery" },
+								{ "name": "Sheetengine.js" },
 								{ "name": "Node.js" },
 								{ "name": "Socket.io" }
 							]

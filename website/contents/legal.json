@@ -1,9 +1,9 @@
 {
 	"lang": "fr",
-	"site-title": "Mentions Legales - Elodie Batista - Developpement Web - Toulouse",
+	"site-title": "Mentions Legales - Elodie Batista - Developpement Web",
 	"meta-descripion": "Mentions legales.",
-	"meta-keywords": "elodie, batista, développement, web, programmation, supinfo, toulouse, informatique, application",
-	"css-bundle": "legal",
+	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application",
+	"css-bundle": "legalBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
@@ -13,7 +13,7 @@
 
 	"footer-text": "2013 Tous droits réservés | Site web développé par",
 	"footer-legal": "Mentions Légales",
-	"js-bundle": "legal",
+	"js-bundle": "legalBundle",
 
 	"paragraphs": [
 		{ 
