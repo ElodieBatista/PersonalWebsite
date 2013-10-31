@@ -12,23 +12,23 @@
     },
 
 	"bundles": {
-		"/css/home.css": [
+		"/css/homeBundle.css": [
 			"/css/base.less",
 			"/css/accueil.less",
 			"/css/jscrollpane.min.css",
 			"/css/MetroJs.lt.css"
 		],
 
-		"/js/home.js" : [
+		"/js/homeBundle.js" : [
             "/js/jquery-1.7.2.min.js",
             "/js/interests.min.js",
-            "/js/MetroJs.lt.js",
+            "/js/metro.js",
             "/js/jscrollpane.min.js",
             "/js/main.js"
         ],
 
 
-        "/css/portfolio.css": [
+        "/css/portfolioBundle.css": [
 			"/css/base.less",
 			"/css/portfolio.less",
 			"/css/bootstrap.min.css",
@@ -36,7 +36,7 @@
 			"/css/nivo-slider.css"
 		],
 
-		"/js/portfolio.js": [
+		"/js/portfolioBundle.js": [
             "/js/jquery-1.7.2.min.js",
             "/js/base.min.js",
             "/js/portfolio.min.js",
@@ -46,29 +46,14 @@
         ],
 
 
-        "/css/legal.css": [
+        "/css/legalBundle.css": [
 			"/css/base.less",
 			"/css/accueil.less"
 		],
 
-		"/js/legal.js" : [
+		"/js/legalBundle.js" : [
             "/js/jquery-1.7.2.min.js",
             "/js/base.min.js"
-        ],
-
-
-        "/css/contact.css": [
-			"/css/base.less",
-			"/css/accueil.less",
-			"/css/contact.less",
-			"/css/MetroJs.lt.css"
-		],
-
-		"/js/contact.js" : [
-            "/js/jquery-1.7.2.min.js",
-            "/js/base.min.js",
-            "/js/email.min.js",
-            "/js/MetroJs.lt.js"
         ]
 	},
 
