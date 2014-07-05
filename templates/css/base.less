@@ -1,0 +1,233 @@
+@font: "Segoe Light", "Robot Light";
+@light-grey: rgb(238, 238, 238);
+@grey: rgb(200, 200, 200);
+@dark-grey: rgb(195, 195, 195);
+@black: rgb(50, 50, 50);
+@blue: rgb(32, 1, 105);
+
+
+/*==================================
+=============== BASE ===============
+==================================*/
+@font-face { font-family: "Segoe Light";     src: url("../Fonts/segoeuil.ttf");                  }
+@font-face { font-family: "Segoe UI";        src: url("../Fonts/segoeui.ttf");                   }
+@font-face { font-family: "Robot Light";     src: url("../Fonts/Roboto-Light-webfont.ttf");      }
+@font-face { font-family: "Robot";           src: url("../Fonts/Roboto-Regular-webfont.ttf");    }
+
+body {
+    margin: 0;
+}
+
+.clear { 
+    clear: both; 
+}
+
+.main-container {
+    margin-left: 100px;
+    font-family: @font;
+}
+
+@media all and (max-width: 1200px) {
+    .main-container {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .main-container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.start-container {
+    height: 491px;
+    overflow: hidden;
+    outline: none;
+    overflow-x: auto;
+}
+
+@media all and (max-width: 350px) {
+    .start-container {
+        height: auto !important;
+    }
+
+    h4 {
+        margin-top: 40px !important;
+    }
+}
+
+h1, h3, h4, h5, h6 { 
+    font-weight: 100; 
+}
+
+h1 { 
+    font-size: 70px; 
+}
+
+h3 { 
+    font-size: 40px; 
+}
+
+h4 { 
+    font-size: 30px; 
+    color: @black; 
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 { 
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+strong {
+    font-weight: 100;
+}
+
+a {
+    color: black;
+    border: 0;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+.hidden { display: none; }
+.hiddenV { visibility: hidden; }
+
+
+/*==================================
+============== HEADER ==============
+==================================*/
+header { 
+    height: 220px;
+}
+
+#main-title { 
+    float: left;
+}
+
+#main-subtitle {
+  display: block;
+  float: right;
+  margin-right: 100px;
+}
+
+@media all and (max-width: 1200px) {
+    #main-subtitle {
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #main-subtitle {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #main-subtitle {
+        display: none;
+    }
+}
+
+@media all and (max-width: 400px) {
+    header { 
+        height: auto; 
+    }
+
+    #main-title {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-size: 60px;
+    }
+}
+
+.login-container {
+    float: left;
+    text-align: right;
+}
+
+#login-avatar {
+    margin-top: 47px;
+    margin-left: 10px;
+}
+
+#login-firstname { 
+    margin-top: 43px;
+    margin-bottom: 0;
+}
+
+#login-lastname {
+    margin: 0;
+}
+
+
+/*==================================
+=============== NAV ================
+==================================*/
+
+
+
+/*==================================
+============== FOOTER ==============
+==================================*/
+footer {
+    text-align: center;
+    color: @grey;
+    font-family: @font;
+    font-size: 18px;
+}
+
+@media all and (max-width: 850px) {
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    footer {
+        font-size: 13px;
+    }
+}
+
+.footer-link {
+    color: @grey;
+}
+
+.footer-link:hover {
+    color: @dark-grey;
+}
+
+
+/*==================================
+=============== LEGAL ==============
+==================================*/
+.legal-bloc {
+    width: 590px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.legal-bloc p {
+    margin: 0;
+    padding: 20px;
+    color: @black;
+    font-size: 15px;
+    background-color: @light-grey;
+}
+
+.legal-bloc a {
+    text-decoration: underline;
+}
+
+.legal-bloc a:hover {
+    color: @blue;
+}

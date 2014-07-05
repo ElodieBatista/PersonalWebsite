@@ -1,0 +1,228 @@
+{
+	"lang": "fr",
+	"site-title": "Portfolio - Elodie Batista - Developpement Web",
+	"meta-descripion": "Mon portfolio présente les applications web et sites internet que j'ai réalisé.",
+	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application, site internet, frontend",
+	"css-bundle": "portfolioBundle",
+	"button-back": {
+		"page": "index.html",
+		"img": "home.svg",
+		"alt": "Accueil"
+	},
+	"page-title": "Portfolio",
+
+	"footer-text": "2014 Tous droits réservés | Site web développé par",
+	"footer-legal": "Mentions Légales",
+	"js-bundle": "portfolioBundle",
+
+	"part1": "Projets en Entreprise",
+	"part2": "Projets Personnels",
+	"internships": [
+		{
+			"ranges": [
+				{
+					"projects": [
+						{
+							"id": "yeswecange",
+							"name": "YesWeCange Site web",
+							"img": "img/0.png",
+							"color": "PFpink",
+							"company": "Freelance - Toulouse",
+							"title": "2014",
+							"category": "HTML5 CSS3 <br /> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/00.png", "legend": "Page d'accueil" }
+							],
+							"description": "Réalisation et référencement d'un site web monopage statique et responsive.<br /><br /><a href='http://yeswecange.com'>Visiter le site</a>", 
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "Punch" },
+								{ "name": "SEO" },
+								{ "name": "Boostrap" }
+							]
+						},
+						{
+							"id": "duxter",
+							"name": "Duxter App",
+							"img": "img/1.png",
+							"color": "PFyellow",
+							"company": "pour Duxter, Inc Seattle, WA - USA",
+							"title": "2013",
+							"category": "Angular.js <br /> HTML5 CSS3",
+							"imgs": [
+								{ "path": "/img/hd/10.png", "legend": "Page d'Accueil" },
+								{ "path": "/img/hd/11.png", "legend": "Portail d'un jeu" },
+								{ "path": "/img/hd/12.png", "legend": "Newsfeed personnel" },
+								{ "path": "/img/hd/13.png", "legend": "Fonctionnalité J'aime/Je n'aime pas et commentaires" },
+								{ "path": "/img/hd/14.png", "legend": "Notifications" },
+								{ "path": "/img/hd/15.png", "legend": "Paramètres" }
+							],
+							"description": "J'ai développé cette application mobile pour l'entreprise Duxter, Inc. Duxter est un réseau social pour les joueurs de jeux vidéos. L’application comporte de nombreuses fonctionnalités telles que le newsfeed, la gestion du compte et les notifications.<br /><a href='https://itunes.apple.com/us/app/duxter/id673362049?mt=8'>Télécharger l'app iOS</a><br /><a href='https://play.google.com/store/apps/details?id=com.duxter.duxterapp'>Télécharger l'app Android</a>", 
+							"technologies": [
+								{ "name": "Angular.js" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "PhoneGap" },
+								{ "name": "Yeoman" },
+								{ "name": "Jasmine" }
+							]
+						},
+						{
+							"id": "projectsManager",
+							"name": "Enterprise Resources Manager",
+							"img": "img/2.png",
+							"color": "PFblue-light",
+							"company": "pour Altran Sud-Ouest Toulouse",
+							"title": "2012",
+							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
+							"imgs": [
+								{ "path": "/img/hd/20.png", "legend": "Tableau de bord d'un projet" },
+								{ "path": "/img/hd/21.png", "legend": "Liste des tâches pour chaque consultant/projet" },
+								{ "path": "/img/hd/22.png", "legend": "Calendrier des consultants" },
+								{ "path": "/img/hd/23.png", "legend": "Rapports d'activités" },
+								{ "path": "/img/hd/24.png", "legend": "Plan de charges" }
+							],
+							"description": "J'ai développé, designé et déployé cette application web destinée à la gestion des projets et des tâches de l'entreprise. Elle répondait à tous les besoins de l'entreprise et possédait une interface pour les clients.", 
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript & jQuery" },
+								{ "name": "ASP.NET MVC 3 & C#" },
+								{ "name": "Entity Framework Code First" },
+								{ "name": "Bootstrap Twitter" }
+							]
+						},
+						{
+							"id": "easyCrossReference",
+							"name": "Cross Reference Finder",
+							"img": "img/3.png",
+							"color": "PForange",
+							"company": "pour Schneider Electric Angoulême",
+							"title": "2011",
+							"category": "HTML5 CSS3 <br /> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/30.png", "legend": "Gammes de produits" },
+								{ "path": "/img/hd/31.png", "legend": "Choix du concurrent et de la référence du produit" },
+								{ "path": "/img/hd/32.png", "legend": "Propositions" },
+								{ "path": "/img/hd/33.png", "legend": "Priorisation des critères" },
+								{ "path": "/img/hd/34.png", "legend": "Résultats: les meilleurs produits équivalents Schneider Electric" }
+							],
+							"description": "J'ai développé cette application web et modélisé sa base de données pour l'étude de références croisées. L'application a été déployée dans tous les bureaux Schneider Electric.",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "JavaScript" },
+								{ "name": "jQuery" },
+								{ "name": "PHP" },
+								{ "name": "MySQL" }
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+
+	"personals": [
+		{
+			"ranges": [
+				{
+					"projects": [
+						{
+							"id": "cubbyhole",
+							"name": "Cubbyhole",
+							"img": "img/4.png",
+							"color": "PFred",
+							"title": "<strong>Dropbox</strong> - 2014",
+							"category": "AngularJS <br /> HTML5 CSS3",
+							"imgs": [
+								{ "path": "/img/hd/40.png", "legend": "Site vitrine" },
+								{ "path": "/img/hd/41.png", "legend": "Gestion des documents" },
+								{ "path": "/img/hd/42.png", "legend": "Partage entre membres" },
+								{ "path": "/img/hd/43.png", "legend": "Business Dashboard pour l'analyse des données utilisateurs" },
+								{ "path": "/img/hd/44.png", "legend": "Business Dashboard pour l'analyse de l'utilisation des plans" }
+							],
+							"description": "Cubbyhole est une plateforme de stockage et de partage de dossiers et de fichiers sur PC, tablette et smartphone. J'ai designé et réalisé toute la partie frontend du client web, de la console d'admnistration et de la business dashboard. <br /><a href='https://github.com/ElodieBatista/cubbyhole_webclient'>Code source sur Github</a>",
+							"technologies": [
+								{ "name": "AngularJS" },
+								{ "name": "JavaScript" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "jQuery" },
+								{ "name": "Highcharts.js" },
+								{ "name": "Bootstrap" }
+							]
+						},
+						{
+							"id": "personalWebsite",
+							"name": "Elodie Batista Site web",
+							"img": "img/5.png",
+							"color": "PFpurple",
+							"title": "2013",
+							"category": "HTML5 CSS3 <br/> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/50.png", "legend": "Page d'accueil dans le style Windows 8" },
+								{ "path": "/img/hd/51.png", "legend": "Portfolio" }
+							],
+							"description": "Site web d'Elodie Batista. Le design est inspiré de Windows 8 et est entièrement réalisé en CSS3 et JavaScript.<br /><br /><a href='https://github.com/ElodieBatista/PersonalWebsite'>Code source sur Github</a>",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "Less" },
+								{ "name": "JavaScript & jQuery" },
+								{ "name": "Handlebars" },
+								{ "name": "Punch" },
+								{ "name": "Heroku" }
+							]
+						},
+						{
+							"id": "myVocabulary",
+							"name": "My Vocabulary",
+							"img": "img/6.png",
+							"color": "PFgreen",
+							"title": "<strong>Win8 App</strong> - 2012",
+							"category": "HTML5 CSS3<br /> JavaScript",
+							"imgs": [
+								{ "path": "/img/hd/60.png", "legend": "Page d'accueil avec une interface pour la gestion des mots" },
+								{ "path": "/img/hd/61.png", "legend": "Paramétrage des quizzs" },
+								{ "path": "/img/hd/62.png", "legend": "Statistiques de progression" }
+							],
+							"description": "Une application Windows 8 pour aider à apprendre des mots dans plusieurs langues et connaître leur signification.<br /><br /><a href='http://apps.microsoft.com/windows/app/my-vocabulary/dfc7bcb1-f903-4050-abf5-c2bf52ccc6be'>Télécharger l'app</a><br /><a href='https://github.com/ElodieBatista/MyVocabulary'>Code source sur Github</a>", 
+							"technologies": [
+								{ "name": "JavaScript" },
+								{ "name": "WinJS" },
+								{ "name": "HTML5" },
+								{ "name": "CSS3" }
+							]
+						},
+						{
+							"id": "blog",
+							"name": "Complete Blog Template",
+							"img": "img/7.png",
+							"color": "PFblue",
+							"title": "2011",
+							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
+							"imgs": [
+								{ "path": "/img/hd/70.png", "legend": "Page d'accueil" },
+								{ "path": "/img/hd/71.png", "legend": "Création d'un article" },
+								{ "path": "/img/hd/72.png", "legend": "Ajout d'un commentaire avec validation des champs" },
+								{ "path": "/img/hd/73.png", "legend": "Boutons Facebook, Twitter, et Google+ buttons présents sur chaque article" }
+							],
+							"description": "Un template de blog complet. Il possède une interface d'administration pour la gestion des articles et des commentaires. Il supporte aussi le multilangues.<br /><br /><a href='https://github.com/ElodieBatista/BlogAspMVC3'>Code source sur Github</a>",
+							"technologies": [
+								{ "name": "HTML5" },
+								{ "name": "CSS3" },
+								{ "name": "ASP.NET MVC3 & C#" },
+								{ "name": "Entity Framework Code First" },
+								{ "name": "SQL Server 2008 R2 Express" }
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

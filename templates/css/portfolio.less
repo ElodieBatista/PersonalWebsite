@@ -1,0 +1,392 @@
+@font: "Segoe Light", "Robot Light";
+@black: rgb(51, 51, 51);
+@dark-black: rgb(11, 11, 11);
+@grey: rgb(200, 200, 200);
+@dark-grey: rgb(195, 195, 195);
+@violet: rgb(115, 1, 173);
+@vert: rgb(0, 169, 169);
+@blue: rgb(32, 1, 105);
+@purple: rgb(215, 0, 225);
+@blue-transparent: rgba(32, 1, 105, 0.75);
+@violet-transparent: rgba(115, 1, 173, 0.75);
+@vert-transparent: rgba(0, 169, 169, 0.75);
+
+.selection (@color) {
+	background: @color;
+	color: white;
+}
+
+
+/*==================================
+============== LAYOUT ==============
+==================================*/
+#start-subcontainer {
+    margin-right: 100px;
+}
+
+@media all and (max-width: 1200px) {
+    #start-subcontainer {
+	    margin-right: 20px;
+	}
+}
+
+@media all and (max-width: 700px) {
+    #start-subcontainer {
+        margin-right: 5px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    #start-subcontainer {
+        width: 100% !important;
+    }
+
+    #start-slide li {
+        margin: 0 !important;
+    }
+
+    .tile-container {
+        width: 100%;
+    }
+}
+
+.pf-list { 
+	padding: 0;
+	list-style-type: none;
+}
+
+.pf-item {
+	float: left;
+	width: 25%;
+	position: relative;
+	list-style-type: none;
+	cursor: pointer;
+	overflow: hidden;
+	border-right: 1px solid rgb(255, 255, 255);
+	box-sizing: border-box;
+}
+
+@media all and (max-width: 850px) {
+    .pf-item {
+        width: 50% !important;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .pf-item {
+        width: 100% !important;
+    }
+}
+
+
+/*==================================
+=============== IMAGES =============
+==================================*/
+.pf-item-img {
+	width: 100%;
+	cursor: pointer;
+	height: 100%;
+	display: block;
+	position: relative;
+	left: 0;
+	transition: left 200ms;
+}
+
+.pf-item:hover .pf-item-img {
+	left: 125px;
+}
+
+@media all and (max-width: 1200px) {
+    .pf-item:hover .pf-item-img {
+		left: 125px !important;
+	}
+}
+
+@media all and (max-width: 1050px) {
+    .pf-item:hover .pf-item-img {
+		left: 100px !important;
+	}
+}
+
+.PFpink {
+	background-color: rgb(190, 47, 121);
+}
+
+.PFyellow {
+	background-color: rgb(246, 187, 24);
+}
+
+.PFblue-light {
+	background-color: rgb(45, 140, 238);
+}
+
+.PForange {
+	background-color: rgb(219, 86, 45);
+}
+
+.PFred {
+	background-color: rgb(190, 29, 74);
+}
+
+.PFpurple {
+	background-color: rgb(166, 0, 173);
+}
+
+.PFgreen {
+	background-color: rgb(0, 165, 0);
+}
+
+.PFblue {
+	background-color: rgb(0, 159, 179);
+}
+
+
+/*==================================
+============== COVER ===============
+==================================*/
+.pf-item-cover {
+	position: absolute;
+	top: 0;
+	left: -175px;
+	padding-top: 25%;
+	color: rgb(255, 255, 255);
+	font-size: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: left 200ms;
+}
+
+.pf-item:hover .pf-item-cover {
+	left: 15px !important;
+}
+
+@media all and (max-width: 1200px) {
+    .pf-item-cover {
+        font-size: 20px !important;
+    }
+}
+
+
+/*==================================
+=============== TITRES =============
+==================================*/
+.pf-item-title {
+	width: 100%;
+	height: 25px;
+	margin-top: 10px;
+	padding-top: 5px;
+	color: @black;
+	font-family: "Segoe UI";
+	font-size: 15px;
+	text-align: center;
+}
+
+.pf-item-line {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-bottom: solid 1px @grey;
+}
+
+@media all and (max-width: 1200px) {
+    .pf-item-line {
+        margin-top: 25px !important;
+    }
+}
+
+
+/*==================================
+============ DESCRIPTION ===========
+==================================*/
+.pf-item-info-container {
+	float: left;
+	width: 180px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.pf-item-info-container h5 {
+	color: @dark-grey;
+	margin: 0px auto 0px auto;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 1px solid @grey;
+	margin-bottom: 10px;
+}
+
+.pf-item-info-container a {
+	color: @purple;
+}
+
+.pf-item-info-container a:hover {
+	text-decoration: underline;
+}
+
+.pf-item-info {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.pf-item-info-details {
+	padding-top: 10px;
+	text-align: left;
+}
+
+
+/*==================================
+=========== MODAL & SLIDER =========
+==================================*/
+.modal {
+	border-radius: 0 !important;
+	width: 900px !important; 
+	margin-left: -450px !important;
+	overflow-y: auto;
+}
+
+.modal-header {
+	border-bottom: 0 !important;
+}
+
+.modal-header h3 span {
+	margin-bottom: 20px;
+	color: @dark-grey;
+	font-size: 15px;
+	font-style: italic;
+	text-align: left;
+}
+
+.modal-header .close {
+	width: 30px;
+  	height: 30px;
+  	color: @black;
+  	background-color: transparent;
+  	border: none;
+  	float: right;
+  	font-size: 35px;
+  	font-weight: bold;
+  	cursor: pointer;
+  	font-family: @font;
+  	line-height: 30px;
+	padding: 0;
+	margin-top: 0 !important;
+}
+
+.modal-header .close:hover {
+  color: @dark-black;
+}
+
+.modal-body {
+	max-height: 470px !important;
+	overflow-y: hidden !important;
+	padding-top: 0 !important;
+}
+
+
+.slider-wrapper {
+	float: left;
+    width: 75%;
+    height:400px;
+}
+
+.nivoSlider {
+    position: relative;
+    background: url(../img/loading.gif) no-repeat 50% 50%;
+    border: 1px solid @dark-grey;
+}
+
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.nivo-directionNav {
+	display: none !important;
+}
+
+.nivo-directionNav a {
+	background-color: @grey !important;
+}
+
+.nivo-directionNav a:hover {
+	background-color: @dark-grey !important;
+}
+
+.nivo-controlNav {
+	text-align: center !important;
+}
+
+@media all and (max-width: 900px) {
+	.modal {
+		top: 0 !important;
+		width: 100% !important;
+		margin-left: -50% !important;
+		height: 100%;
+	}
+
+    .modal-body {
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .slider-wrapper {
+    	width: 100%;
+    	height: auto;
+    	margin-left: -10px;
+    }
+
+    .pf-item-info-container {
+    	width: 100% !important;
+    }
+
+    .pf-item-info {
+		margin-right: 0 !important;
+	}
+
+	.pf-item-info-details {
+		padding-bottom: 10px;
+	}
+
+	.nivo-caption {
+		font-size: 14px !important;
+	}
+}
+
+
+
+/*==================================
+============ SELECTION =============
+==================================*/
+p::-moz-selection, strong::-moz-selection,
+a::-moz-selection, span::-moz-selection,
+div::-moz-selection, h1::-moz-selection, 
+h2::-moz-selection, h3::-moz-selection, 
+h4::-moz-selection, h5::-moz-selection, 
+h6::-moz-selection, label::-moz-selection {
+	.selection(@violet);
+}
+p::-webkit-selection, strong::-webkit-selection,
+a::-webkit-selection, span::-webkit-selection,
+div::-webkit-selection, h1::-webkit-selection, 
+h2::-webkit-selection, h3::-webkit-selection, 
+h4::-webkit-selection, h5::-webkit-selection, 
+h6::-webkit-selection, label::-webkit-selection {
+	.selection(@violet);
+}
+p::selection, strong::selection,
+a::selection, span::selection,
+div::selection, h1::selection, 
+h2::selection, h3::selection, 
+h4::selection, h5::selection, 
+h6::selection, label::selection {
+	.selection(@violet);
+}

@@ -1,0 +1,13 @@
+{{> header }}
+
+	    	<div class="legal-container">
+	    		{{#each paragraphs}}
+	      			<h4>{{this.title}}</h4>
+	      			<aside class="legal-bloc">
+			    		{{{this.text}}}
+			    	</aside>
+		    	{{/each}}
+	    	</div>
+		</div>
+
+{{> footer }}

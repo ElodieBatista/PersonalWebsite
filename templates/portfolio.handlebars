@@ -1,0 +1,66 @@
+{{> header }}
+
+	    	<div id="start-subcontainer">
+	    		<h4>{{part1}}</h4>
+
+	    		{{#each internships}}
+	    			{{#each ranges}}
+				    	<ul class="pf-list">
+				    		{{#each projects}}
+								<a href="#{{id}}" data-toggle="modal">
+						    		<li class="pf-item">
+										<div class="{{color}}">
+											<img class="pf-item-img" src="{{img}}" alt="{{name}} - {{{title}}}" title="{{name}} - {{{title}}}">
+										</div>
+										<div class="pf-item-title">{{name}} - {{{title}}}</div>
+										<div class="pf-item-cover">{{{category}}}</div>
+										<hr class="pf-item-line" />
+									</li>
+								</a>
+							{{/each}}
+						</ul>
+						<div class="clear"></div>
+					{{/each}}
+				{{/each}}
+
+				<br /><br />
+				<h4>{{part2}}</h4>
+
+	    		{{#each personals}}
+	    			{{#each ranges}}
+				    	<ul class="pf-list">
+				    		{{#each projects}}
+								<a href="#{{id}}" data-toggle="modal">
+						    		<li class="pf-item">
+										<div class="{{color}}">
+											<img class="pf-item-img" src="{{img}}" alt="{{name}} - {{{title}}}" title="{{name}} - {{{title}}}">
+										</div>
+										<div class="pf-item-title">{{name}} - {{{title}}}</div>
+										<div class="pf-item-cover">{{{category}}}</div>
+										<hr class="pf-item-line" />
+									</li>
+								</a>
+							{{/each}}
+						</ul>
+						<div class="clear"></div>
+					{{/each}}
+				{{/each}}
+
+				{{#each internships}}
+	    			{{#each ranges}}
+				    	{{#each projects}}
+							{{> modal-slider this }}
+						{{/each}}
+					{{/each}}
+				{{/each}}
+
+				{{#each personals}}
+	    			{{#each ranges}}
+				    	{{#each projects}}
+							{{> modal-slider this }}
+						{{/each}}
+					{{/each}}
+				{{/each}}
+	    	</div>
+
+{{> footer }}

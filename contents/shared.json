@@ -1,0 +1,41 @@
+{
+	"tiles-legend": {
+		"fr": {
+			"interests": "Intérêts",
+			"quotes": "Citations",
+			"presentation": "Présentation"
+		},
+		"en": {
+			"interests": "Interests",
+			"quotes": "Quotes",
+			"presentation": "Presentation"
+		}
+	},
+
+	"tiles-img": {
+		"bloc1-1": { "size": "tile-small", 	"speed": "750", "delay": "7000",  "img1": "img/slide/capitole.png", "img2": "img/slide/sanf0.png" },
+		"bloc1-2": { "size": "tile-big", 	"speed": "750", "delay": "15000", "img1": "img/slide/sanf.png", 	"img2": "img/slide/sanf4.png" },
+		"bloc1-3": { "size": "tile-big", 	"speed": "750", "delay": "11000", "img1": "img/slide/branches.png", "img2": "img/slide/lila.png" },
+		"bloc2-1": { "size": "tile-big", 	"speed": "750", "delay": "20000", "img1": "img/slide/ile.png", 		"img2": "img/slide/lac.png" },
+		"bloc3-1": { "size": "tile-small", 	"speed": "950", "delay": "10000", "img1": "img/slide/ocean.png", 	"img2": "img/slide/sanf5.png" },
+		"bloc3-2": { "size": "tile-small", 	"speed": "750", "delay": "15000", "img1": "img/slide/tower.png", 	"img2": "img/slide/nature.png" },
+		"bloc3-3": { "size": "tile-big", 	"speed": "750", "delay": "17000", "img1": "img/slide/road.png", 	"img2": "img/slide/ice.png" },
+		"bloc3-4": { "size": "tile-small", 	"speed": "750", "delay": "20000", "img1": "img/slide/fleur.png", 	"img2": "img/slide/spring.png" }
+	},
+
+	"tiles-color": {
+		"bloc1-1": { 
+			"fr": { "text": "Passionnée par le développement web, j'aime développer des applications web en JavaScript et HTML5." }, 
+			"en": { "text": "I'm a passionate frontend web developer. I love designing web applications using JavaScript and HTML5." }
+		},
+		"bloc1-2": { "page": "mailto:elodie.batista@live.com", 						"size": "small", 	"color": "Orange", 		"logo": "img/logos/lettre.svg", 	"alt": "Contact Elodie Batista", 	"legend": "Contact" },
+		"bloc1-3": { "page": "./pdf/Elodie_BATISTA.pdf", 							"size": "big", 		"color": "Red", 		"logo": "img/logos/cv.svg", 		"alt": "CV Elodie Batista", 		"legend": "CV" },
+		"bloc1-4": { "page": "portfolio.html", 										"size": "big", 		"color": "Purple", 		"logo": "img/logos/portfolio.svg", 	"alt": "Portfolio Elodie Batista", 	"legend": "Portfolio" },
+		"bloc3-1": { "page": "http://www.viadeo.com/fr/profile/elodie.batista", 	"size": "small", 	"color": "Orange", 		"logo": "img/logos/viadeo.svg", 	"alt": "Viadeo Elodie Batista", 	"legend": "Viadeo" },
+		"bloc3-2": { "page": "http://www.flickr.com/photos/elodiebatista/", 		"size": "small", 	"color": "Bordeaux", 	"logo": "img/logos/flickr.svg", 	"alt": "Flickr Elodie Batista", 	"legend": "Flickr" },
+		"bloc3-3": { "page": "http://twitter.com/elodie_batista", 					"size": "big", 		"color": "Blue3", 		"logo": "img/logos/twitter.svg", 	"alt": "Twitter Elodie Batista", 	"legend": "Twitter" },
+		"bloc3-4": { "page": "http://fr.linkedin.com/in/elodiebatista/en", 			"size": "small", 	"color": "Purple", 		"logo": "img/logos/linkedin.svg", 	"alt": "LinkedIn Elodie Batista", 	"legend": "LinkedIn" },
+		"bloc3-5": { "page": "https://github.com/ElodieBatista", 					"size": "big", 		"color": "Yellow", 		"logo": "img/logos/github.svg", 	"alt": "Github Elodie Batista", 	"legend": "Github" },
+		"bloc2-2": "Happiness is a journey, not a destination."
+	}
+}
