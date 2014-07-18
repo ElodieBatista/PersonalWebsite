@@ -165,7 +165,8 @@
   margin-bottom: 10px;
 }
 .pf-item-info-container a {
-  color: #d700e1;
+  background-color: #d700e1;
+  color: #ffffff;
 }
 .pf-item-info-container a:hover {
   text-decoration: underline;

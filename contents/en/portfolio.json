@@ -145,7 +145,7 @@
 								{ "path": "/img/hd/43.png", "legend": "Business Dashboard to analyse users data" },
 								{ "path": "/img/hd/44.png", "legend": "Business Dashboard to analyse plans usage data" }
 							],
-							"description": "Cubbyhole is a storage and sharing plateform for documents and files. It works on PC, tablet and mobile. Designed and developped the web client, the administration console, and the business dashboard.<br /><a href='https://github.com/ElodieBatista/cubbyhole_webclient'>Source code on Github</a>",
+							"description": "Cubbyhole is a storage and sharing plateform for documents and files. It works on PC, tablet and mobile. Designed and developped: <a href='http://cubbyhole-web.herokuapp.com' target='_blank'>Web Client</a><br /><a href='http://cubbyhole-adminconsole.herokuapp.com' target='_blank'>Administration Console</a><br /><a href='http://cubbyhole-dashboard.herokuapp.com' target='_blank'>Business Dashboard</a><br /><a href='https://github.com/ElodieBatista/cubbyhole_webclient'>Source code on Github</a>",
 							"technologies": [
 								{ "name": "AngularJS" },
 								{ "name": "JavaScript" },
