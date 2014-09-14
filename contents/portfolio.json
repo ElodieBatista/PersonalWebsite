@@ -1,22 +1,22 @@
 {
-	"lang": "fr",
-	"site-title": "Portfolio - Elodie Batista - Developpement Web",
-	"meta-descripion": "Mon portfolio présente les applications web et sites internet que j'ai réalisé.",
-	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application, site internet, frontend",
+	"lang": "en",
+	"site-title": "Portfolio - Elodie Batista - Web Development",
+	"meta-descripion": "My portfolio presents the web applications and websites I developped.",
+	"meta-keywords": "elodie, batista, web, development, supinfo, application, website, frontend, developer",
 	"css-bundle": "portfolioBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
-		"alt": "Accueil"
+		"alt": "Home"
 	},
 	"page-title": "Portfolio",
 
-	"footer-text": "2014 Tous droits réservés | Site web développé par",
-	"footer-legal": "Mentions Légales",
+	"footer-text": "2014 All rights reserved | Web site developed by",
+	"footer-legal": "Legal Information",
 	"js-bundle": "portfolioBundle",
 
-	"part1": "Projets en Entreprise",
-	"part2": "Projets Personnels",
+	"part1": "Projects for Companies",
+	"part2": "Personal Projects",
 	"internships": [
 		{
 			"ranges": [
@@ -24,16 +24,16 @@
 					"projects": [
 						{
 							"id": "yeswecange",
-							"name": "YesWeCange Site web",
+							"name": "YesWeCange Website",
 							"img": "img/0.png",
 							"color": "PFpink",
 							"company": "Freelance - Toulouse",
 							"title": "2014",
 							"category": "HTML5 CSS3 <br /> JavaScript",
 							"imgs": [
-								{ "path": "/img/hd/00.png", "legend": "Page d'accueil" }
+								{ "path": "/img/hd/00.png", "legend": "Home page" }
 							],
-							"description": "Réalisation et référencement d'un site web monopage statique et responsive.<br /><br /><a href='http://yeswecange.com'>Visiter le site</a>", 
+							"description": "Development of a single static page and responsive website. I also took care of the SEO.<br /><br /><a href='http://yeswecange.com'>Visit the website</a>", 
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
@@ -48,18 +48,18 @@
 							"name": "Duxter App",
 							"img": "img/1.png",
 							"color": "PFyellow",
-							"company": "pour Duxter, Inc Seattle, WA - USA",
+							"company": "for Duxter, Inc Seattle, WA - USA",
 							"title": "2013",
 							"category": "Angular.js <br /> HTML5 CSS3",
 							"imgs": [
-								{ "path": "/img/hd/10.png", "legend": "Page d'Accueil" },
-								{ "path": "/img/hd/11.png", "legend": "Portail d'un jeu" },
-								{ "path": "/img/hd/12.png", "legend": "Newsfeed personnel" },
-								{ "path": "/img/hd/13.png", "legend": "Fonctionnalité J'aime/Je n'aime pas et commentaires" },
+								{ "path": "/img/hd/10.png", "legend": "Home page" },
+								{ "path": "/img/hd/11.png", "legend": "A game portal" },
+								{ "path": "/img/hd/12.png", "legend": "Personal newsfeed" },
+								{ "path": "/img/hd/13.png", "legend": "Like/dislike and comment features" },
 								{ "path": "/img/hd/14.png", "legend": "Notifications" },
-								{ "path": "/img/hd/15.png", "legend": "Paramètres" }
+								{ "path": "/img/hd/15.png", "legend": "Parameters" }
 							],
-							"description": "J'ai développé cette application mobile pour l'entreprise Duxter, Inc. Duxter est un réseau social pour les joueurs de jeux vidéos. L’application comporte de nombreuses fonctionnalités telles que le newsfeed, la gestion du compte et les notifications.<br /><a href='https://itunes.apple.com/us/app/duxter/id673362049?mt=8'>Télécharger l'app iOS</a><br /><a href='https://play.google.com/store/apps/details?id=com.duxter.duxterapp'>Télécharger l'app Android</a>", 
+							"description": "Developed the Duxter mobile application on Android and iOS. Duxter is a social network for gamers. The application provides mandy features such as the newsfeed, account management, and notifications.<br /><br /><a href='https://itunes.apple.com/us/app/duxter/id673362049?mt=8'>Download the iOS app</a><br /><a href='https://play.google.com/store/apps/details?id=com.duxter.duxterapp'>Download the Android app</a>", 
 							"technologies": [
 								{ "name": "Angular.js" },
 								{ "name": "HTML5" },
@@ -75,17 +75,17 @@
 							"name": "Enterprise Resources Manager",
 							"img": "img/2.png",
 							"color": "PFblue-light",
-							"company": "pour Altran Sud-Ouest Toulouse",
+							"company": "for Altran Company",
 							"title": "2012",
 							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
 							"imgs": [
-								{ "path": "/img/hd/20.png", "legend": "Tableau de bord d'un projet" },
-								{ "path": "/img/hd/21.png", "legend": "Liste des tâches pour chaque consultant/projet" },
-								{ "path": "/img/hd/22.png", "legend": "Calendrier des consultants" },
-								{ "path": "/img/hd/23.png", "legend": "Rapports d'activités" },
-								{ "path": "/img/hd/24.png", "legend": "Plan de charges" }
+								{ "path": "/img/hd/20.png", "legend": "A project's dashboard" },
+								{ "path": "/img/hd/21.png", "legend": "List of tasks for each employee/project" },
+								{ "path": "/img/hd/22.png", "legend": "Calendar" },
+								{ "path": "/img/hd/23.png", "legend": "Activities reports" },
+								{ "path": "/img/hd/24.png", "legend": "Project workload" }
 							],
-							"description": "J'ai développé, designé et déployé cette application web destinée à la gestion des projets et des tâches de l'entreprise. Elle répondait à tous les besoins de l'entreprise et possédait une interface pour les clients.", 
+							"description": "Developed, designed and deployed a web application for managing projects and tasks in the company. It fulfilled all the company's needs and also featured an interface for customers.", 
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
@@ -100,17 +100,17 @@
 							"name": "Cross Reference Finder",
 							"img": "img/3.png",
 							"color": "PForange",
-							"company": "pour Schneider Electric Angoulême",
+							"company": "for Schneider Electric Company",
 							"title": "2011",
-							"category": "HTML5 CSS3 <br /> JavaScript",
+							"category": "HTML5 <br /> CSS3",
 							"imgs": [
-								{ "path": "/img/hd/30.png", "legend": "Gammes de produits" },
-								{ "path": "/img/hd/31.png", "legend": "Choix du concurrent et de la référence du produit" },
+								{ "path": "/img/hd/30.png", "legend": "Company's products line" },
+								{ "path": "/img/hd/31.png", "legend": "Competitor choice and product reference" },
 								{ "path": "/img/hd/32.png", "legend": "Propositions" },
-								{ "path": "/img/hd/33.png", "legend": "Priorisation des critères" },
-								{ "path": "/img/hd/34.png", "legend": "Résultats: les meilleurs produits équivalents Schneider Electric" }
+								{ "path": "/img/hd/33.png", "legend": "Prioritization of criteria" },
+								{ "path": "/img/hd/34.png", "legend": "Results: the best Schneider Electric's equivalent products" }
 							],
-							"description": "J'ai développé cette application web et modélisé sa base de données pour l'étude de références croisées. L'application a été déployée dans tous les bureaux Schneider Electric.",
+							"description": "Developed a business web application and modeled a database for the study of cross-references. It has been deployed to all the company's offices worldwide.",
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
@@ -136,16 +136,16 @@
 							"name": "Cubbyhole",
 							"img": "img/4.png",
 							"color": "PFred",
-							"title": "<strong>Dropbox</strong> - 2014",
+							"title": "<strong>Dropbox</strong> - 2013",
 							"category": "AngularJS <br /> HTML5 CSS3",
 							"imgs": [
-								{ "path": "/img/hd/40.png", "legend": "Site vitrine" },
-								{ "path": "/img/hd/41.png", "legend": "Gestion des documents" },
-								{ "path": "/img/hd/42.png", "legend": "Partage entre membres" },
-								{ "path": "/img/hd/43.png", "legend": "Business Dashboard pour l'analyse des données utilisateurs" },
-								{ "path": "/img/hd/44.png", "legend": "Business Dashboard pour l'analyse de l'utilisation des plans" }
+								{ "path": "/img/hd/40.png", "legend": "Commercial website" },
+								{ "path": "/img/hd/41.png", "legend": "Documents management" },
+								{ "path": "/img/hd/42.png", "legend": "Sharing between members" },
+								{ "path": "/img/hd/43.png", "legend": "Business Dashboard to analyse users data" },
+								{ "path": "/img/hd/44.png", "legend": "Business Dashboard to analyse plans usage data" }
 							],
-							"description": "Cubbyhole est une plateforme de stockage et de partage de dossiers et de fichiers sur PC, tablette et smartphone. J'ai designé et réalisé toute la partie frontend: <br /><a href='http://cubbyhole-web.herokuapp.com' target='_blank'>Client Web</a><br /><a href='http://cubbyhole-adminconsole.herokuapp.com' target='_blank'>Console d'Administration</a> <br /><a href='http://cubbyhole-dashboard.herokuapp.com' target='_blank'>Business Dashboard</a><br /><a href='https://github.com/ElodieBatista/cubbyhole_webclient'>Code source sur Github</a>",
+							"description": "Cubbyhole is a storage and sharing plateform for documents and files. It works on PC, tablet and mobile. Designed and developped: <a href='http://cubbyhole-web.herokuapp.com' target='_blank'>Web Client</a><br /><a href='http://cubbyhole-adminconsole.herokuapp.com' target='_blank'>Administration Console</a><br /><a href='http://cubbyhole-dashboard.herokuapp.com' target='_blank'>Business Dashboard</a><br /><a href='https://github.com/ElodieBatista/cubbyhole_webclient'>Source code on Github</a>",
 							"technologies": [
 								{ "name": "AngularJS" },
 								{ "name": "JavaScript" },
@@ -158,16 +158,16 @@
 						},
 						{
 							"id": "personalWebsite",
-							"name": "Elodie Batista Site web",
+							"name": "Elodie Batista's Website",
 							"img": "img/5.png",
 							"color": "PFpurple",
 							"title": "2013",
 							"category": "HTML5 CSS3 <br/> JavaScript",
 							"imgs": [
-								{ "path": "/img/hd/50.png", "legend": "Page d'accueil dans le style Windows 8" },
+								{ "path": "/img/hd/50.png", "legend": "Home page in Windows 8 Style" },
 								{ "path": "/img/hd/51.png", "legend": "Portfolio" }
 							],
-							"description": "Site web d'Elodie Batista. Le design est inspiré de Windows 8 et est entièrement réalisé en CSS3 et JavaScript.<br /><br /><a href='https://github.com/ElodieBatista/PersonalWebsite'>Code source sur Github</a>",
+							"description": "Website of Elodie Batista. Design is inspired by Windows 8 and entirely built in CSS3 and JavaScript.<br /><br /><a href='https://github.com/ElodieBatista/PersonalWebsite'>Source code on Github</a>",
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },
@@ -183,14 +183,14 @@
 							"name": "My Vocabulary",
 							"img": "img/6.png",
 							"color": "PFgreen",
-							"title": "<strong>Win8 App</strong> - 2012",
+							"title": "<strong>Windows 8 App</strong> - 2012",
 							"category": "HTML5 CSS3<br /> JavaScript",
 							"imgs": [
-								{ "path": "/img/hd/60.png", "legend": "Page d'accueil avec une interface pour la gestion des mots" },
-								{ "path": "/img/hd/61.png", "legend": "Paramétrage des quizzs" },
-								{ "path": "/img/hd/62.png", "legend": "Statistiques de progression" }
+								{ "path": "/img/hd/60.png", "legend": "Home page with interface to manage the words" },
+								{ "path": "/img/hd/61.png", "legend": "Quizzes' parameters" },
+								{ "path": "/img/hd/62.png", "legend": "Progression's statistics" }
 							],
-							"description": "Une application Windows 8 pour aider à apprendre des mots dans plusieurs langues et connaître leur signification.<br /><br /><a href='http://apps.microsoft.com/windows/app/my-vocabulary/dfc7bcb1-f903-4050-abf5-c2bf52ccc6be'>Télécharger l'app</a><br /><a href='https://github.com/ElodieBatista/MyVocabulary'>Code source sur Github</a>", 
+							"description": "A Windows 8 application to help language learners learn new words and their meaning.<br /><br /><a href='http://apps.microsoft.com/windows/app/my-vocabulary/dfc7bcb1-f903-4050-abf5-c2bf52ccc6be'>Download the app</a><br /><a href='https://github.com/ElodieBatista/MyVocabulary'>Source code on Github</a>", 
 							"technologies": [
 								{ "name": "JavaScript" },
 								{ "name": "WinJS" },
@@ -206,12 +206,12 @@
 							"title": "2011",
 							"category": "HTML5 CSS3 <br /> ASP.Net MVC",
 							"imgs": [
-								{ "path": "/img/hd/70.png", "legend": "Page d'accueil" },
-								{ "path": "/img/hd/71.png", "legend": "Création d'un article" },
-								{ "path": "/img/hd/72.png", "legend": "Ajout d'un commentaire avec validation des champs" },
-								{ "path": "/img/hd/73.png", "legend": "Boutons Facebook, Twitter, et Google+ buttons présents sur chaque article" }
+								{ "path": "/img/hd/70.png", "legend": "Home page" },
+								{ "path": "/img/hd/71.png", "legend": "Post creation" },
+								{ "path": "/img/hd/72.png", "legend": "Adding a comment" },
+								{ "path": "/img/hd/73.png", "legend": "Facebook, Twitter, and Google+ buttons present on each post" }
 							],
-							"description": "Un template de blog complet. Il possède une interface d'administration pour la gestion des articles et des commentaires. Il supporte aussi le multilangues.<br /><br /><a href='https://github.com/ElodieBatista/BlogAspMVC3'>Code source sur Github</a>",
+							"description": "A complete blog template. It includes an administration interface for posts and comments management. It also supports multilanguages.<br /><br /><a href='https://github.com/ElodieBatista/BlogAspMVC3'>Source code on Github</a>",
 							"technologies": [
 								{ "name": "HTML5" },
 								{ "name": "CSS3" },

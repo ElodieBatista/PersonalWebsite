@@ -1,6 +1,6 @@
 User-agent: * 
 Allow: / 
 Disallow: /legal.html
-Disallow: /en/legal.html
+Disallow: /fr/legal.html
 
-Sitemap: http://www.elodie-batista.fr/sitemap.xml
+Sitemap: http://elodie.io/sitemap.xml

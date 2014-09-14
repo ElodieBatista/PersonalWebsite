@@ -1,17 +1,4 @@
 {
-	"tiles-legend": {
-		"fr": {
-			"interests": "Intérêts",
-			"quotes": "Citations",
-			"presentation": "Présentation"
-		},
-		"en": {
-			"interests": "Interests",
-			"quotes": "Quotes",
-			"presentation": "Presentation"
-		}
-	},
-
 	"tiles-img": {
 		"bloc1-1": { "size": "tile-small", 	"speed": "750", "delay": "7000",  "img1": "img/slide/capitole.png", "img2": "img/slide/sanf0.png" },
 		"bloc1-2": { "size": "tile-big", 	"speed": "750", "delay": "15000", "img1": "img/slide/sanf.png", 	"img2": "img/slide/sanf4.png" },
@@ -24,10 +11,6 @@
 	},
 
 	"tiles-color": {
-		"bloc1-1": { 
-			"fr": { "text": "Passionnée par le développement web, j'aime développer des applications web en JavaScript et HTML5." }, 
-			"en": { "text": "I'm a passionate frontend web developer. I love designing web applications using JavaScript and HTML5." }
-		},
 		"bloc1-2": { "page": "mailto:elodie.batista@live.com", 						"size": "small", 	"color": "Orange", 		"logo": "img/logos/lettre.svg", 	"alt": "Contact Elodie Batista", 	"legend": "Contact" },
 		"bloc1-3": { "page": "./pdf/Elodie_BATISTA.pdf", 							"size": "big", 		"color": "Red", 		"logo": "img/logos/cv.svg", 		"alt": "CV Elodie Batista", 		"legend": "CV" },
 		"bloc1-4": { "page": "portfolio.html", 										"size": "big", 		"color": "Purple", 		"logo": "img/logos/portfolio.svg", 	"alt": "Portfolio Elodie Batista", 	"legend": "Portfolio" },

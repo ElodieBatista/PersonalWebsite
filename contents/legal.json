@@ -1,32 +1,32 @@
 {
-	"lang": "fr",
-	"site-title": "Mentions Legales - Elodie Batista - Developpement Web",
-	"meta-descripion": "Mentions legales.",
-	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application, frontend, developpeur",
+	"lang": "en",
+	"site-title": "Legal Information - Elodie Batista - Web Development",
+	"meta-descripion": "Legal Information.",
+	"meta-keywords": "elodie, batista, web, development, supinfo, application, frontend, developer",
 	"css-bundle": "legalBundle",
 	"button-back": {
 		"page": "index.html",
 		"img": "home.svg",
-		"alt": "Accueil"
+		"alt": "Home"
 	},
-	"page-title": "Mentions Légales",
+	"page-title": "Legal Information",
 
-	"footer-text": "2014 Tous droits réservés | Site web développé par",
-	"footer-legal": "Mentions Légales",
+	"footer-text": "2014 All rights reserved | Web site developed by",
+	"footer-legal": "Legal Information",
 	"js-bundle": "legalBundle",
 
 	"paragraphs": [
 		{ 
-			"title": "Metro JS", 		
-			"text": "<p>Metro JS est un plugin jQuery conçu pour créer facilement des interfaces métro sur le web : <a href='http://www.drewgreenwell.com/projects/metrojs'>Metro Js</a></p>" 
+			"title": "Metro JS", 
+			"text": "<p>Metro JS is a jQuery plugin conceived to easily create Windows 8 interface for web sites: <a href='http://www.drewgreenwell.com/projects/metrojs'>Metro Js</a></p>" 
 		},
 		{ 
 			"title": "Noun Project", 	
 			"text": "<p>'House' symbol by Maurizio Pedrazzoli, from <a href='http://thenounproject.com'>The Noun Project</a><br />'Courrier' symbol by Anas Ramadan, from <a href='http://thenounproject.com'>The Noun Project</a><br />'Document' symbol by P.J. Onori, from <a href='http://thenounproject.com'>The Noun Project</a><br /></p><p>'Dossier' symbol by Jack Biesek, Gladys Brenner, Margaret Faye, Healther Merrifield, Kate Keating, Wendy Olmstead, Todd Pierce, Jamie Cowgill, Jim Bolek, from <a href='http://thenounproject.com'>The Noun Project</a></p>" 
 		},
 		{ 
-			"title": "Nivo-Slider", 	
-			"text": "<p>Nivo-Slider est un plugin jQuery qui permet de créer très simplement de jolis slideshow: <a href='http://dev7studios.com/nivo-slider/'>Nivo-Slider</a></p>" 
+			"title": "Nivo-Slider", 
+			"text": "<p>Nivo-Slider is a jQuery plugin designed to build awesome image sliders: <a href='http://dev7studios.com/nivo-slider/'>Nivo-Slider</a></p>" 
 		}
 	]
 }

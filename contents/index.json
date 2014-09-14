@@ -1,17 +1,26 @@
 {
-	"lang": "fr",
-	"site-title": "Elodie Batista - Developpement Web",
-	"meta-descripion": "Etudiante en informatique à Supinfo, je suis passionnée par le développement Web.",
-	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application, frontend, developpeur",
+	"lang": "en",
+	"site-title": "Elodie Batista - Web Development",
+	"meta-descripion": "Student in Computer Science, I love web development.",
+	"meta-keywords": "elodie, batista, development, web, supinfo, application, frontend, developer",
 	"css-bundle": "homeBundle",
 	"button-back": "",
-	"page-title": "Accueil",
+	"page-title": "Home",
 
-	"footer-text": "2014 Tous droits réservés | Site web développé par",
-	"footer-legal": "Mentions Légales",
+	"footer-text": "2014 All rights reserved | Web site developed by",
+	"footer-legal": "Legal Information",
 	"js-bundle": "homeBundle",
 
-	"title1": "Présentation",
-	"title2": "Divers",
-	"title3": "Réseaux Sociaux"
+	"title1": "Presentation",
+	"title2": "Other",
+	"title3": "Social Networks",
+
+    "tiles-legend": {
+        "interests": "Interests",
+        "quotes": "Quotes",
+        "presentation": "Presentation"
+    },
+
+
+    "bloc1-1": "I'm a passionate frontend web developer. I love designing web applications using JavaScript and HTML5."
 }

@@ -1,0 +1,25 @@
+{
+	"lang": "fr",
+	"site-title": "Elodie Batista - Developpement Web",
+	"meta-descripion": "Etudiante en informatique à Supinfo, je suis passionnée par le développement Web.",
+	"meta-keywords": "elodie, batista, développement, web, supinfo, informatique, application, frontend, developpeur",
+	"css-bundle": "homeBundle",
+	"button-back": "",
+	"page-title": "Accueil",
+
+	"footer-text": "2014 Tous droits réservés | Site web développé par",
+	"footer-legal": "Mentions Légales",
+	"js-bundle": "homeBundle",
+
+	"title1": "Présentation",
+	"title2": "Divers",
+	"title3": "Réseaux Sociaux",
+
+    "tiles-legend": {
+        "interests": "Intérêts",
+        "quotes": "Citations",
+        "presentation": "Présentation"
+    },
+
+    "bloc1-1": "Passionnée par le développement web, j'aime développer des applications web en JavaScript et HTML5."
+}
